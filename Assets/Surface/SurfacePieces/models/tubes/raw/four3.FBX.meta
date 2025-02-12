@@ -1,0 +1,87 @@
+fileFormatVersion: 2
+guid: fdc5290d22e4c3c4daf6a8b41d57e011
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Cylinder036
+    100002: Cylinder037
+    100004: Cylinder038
+    100006: Cylinder039
+    100008: //RootNode
+    100010: Sphere004
+    400000: Cylinder036
+    400002: Cylinder037
+    400004: Cylinder038
+    400006: Cylinder039
+    400008: //RootNode
+    400010: Sphere004
+    2300000: Cylinder036
+    2300002: Cylinder037
+    2300004: Cylinder038
+    2300006: Cylinder039
+    2300008: Sphere004
+    3300000: Cylinder036
+    3300002: Cylinder037
+    3300004: Cylinder038
+    3300006: Cylinder039
+    3300008: Sphere004
+    4300000: Sphere004
+    4300002: Cylinder036
+    4300004: Cylinder037
+    4300006: Cylinder038
+    4300008: Cylinder039
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

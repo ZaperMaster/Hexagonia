@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: be9b7650827298c47b7ffbfd76ff2f54
+timeCreated: 1435930506
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - myStar: {instanceID: 0}
+  - explosion: {fileID: 100010, guid: 031d08f52af1daa4f929b85221519426, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

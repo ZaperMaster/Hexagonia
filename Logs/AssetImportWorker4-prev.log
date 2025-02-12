@@ -1,0 +1,1904 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.23f1 (dbb3f7c5b5c6) revision 14398455'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'es' Physical Memory: 28581 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.23f1-x86_64\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Proyecto Unity/Hexagonia-main
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+60654
+Successfully changed project path to: C:/Proyecto Unity/Hexagonia-main
+C:/Proyecto Unity/Hexagonia-main
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [22056] Host "[IP] 192.168.18.84 [Port] 0 [Flags] 2 [Guid] 760189998 [EditorId] 760189998 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1T7NC3B) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [22056] Host "[IP] 192.168.18.84 [Port] 0 [Flags] 2 [Guid] 760189998 [EditorId] 760189998 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1T7NC3B) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 28.49 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.23f1 (dbb3f7c5b5c6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.23f1-x86_64/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Proyecto Unity/Hexagonia-main/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6600 XT (ID=0x73ff)
+    Vendor:   ATI
+    VRAM:     8147 MB
+    Driver:   32.0.11027.2001
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.23f1-x86_64/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.23f1-x86_64/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.23f1-x86_64/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56504
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.23f1-x86_64/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010258 seconds.
+- Loaded All Assemblies, in  0.611 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.461 seconds
+Domain Reload Profiling: 1069ms
+	BeginReloadAssembly (157ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (313ms)
+		LoadAssemblies (155ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (311ms)
+			TypeCache.Refresh (309ms)
+				TypeCache.ScanAssembly (289ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (463ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (370ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (17ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (255ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.947 seconds
+Refreshing native plugins compatible for Editor in 9.96 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.049 seconds
+Domain Reload Profiling: 1990ms
+	BeginReloadAssembly (198ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (625ms)
+		LoadAssemblies (471ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (268ms)
+			TypeCache.Refresh (233ms)
+				TypeCache.ScanAssembly (214ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1049ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (817ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (95ms)
+			ProcessInitializeOnLoadAttributes (664ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 13.63 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3480 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (73.6 KB). Loaded Objects now: 3960.
+Memory consumption went from 153.8 MB to 153.8 MB.
+Total: 5.048500 ms (FindLiveObjects: 0.308600 ms CreateObjectMapping: 0.149100 ms MarkObjects: 4.378000 ms  DeleteObjects: 0.210800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DeathScreenManager.cs: e29ceee39ecc5495837991134bc8dad9 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PantallaMuerte.cs: ce58e40909b58eb69faf3f5d08c53997 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 659037.727430 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/raw/B2S1/Materials/Material #501.mat
+  artifactKey: Guid(c8ccc07272225c742867900ee208ad97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/raw/B2S1/Materials/Material #501.mat using Guid(c8ccc07272225c742867900ee208ad97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ca9b5a76663cfcc6a8ff3c4d7f1ddec0') in 0.132093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Surface/SLAVE/UNIT/UnitBase.cs
+  artifactKey: Guid(f44eb874d9de6a942a1bea40741a375d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SLAVE/UNIT/UnitBase.cs using Guid(f44eb874d9de6a942a1bea40741a375d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '553b6c19ea40ad03105c83593e78758c') in 0.020526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Surface/SLAVE/UNIT/PhisicUnit.cs
+  artifactKey: Guid(76ca8647d8e661a419fe46d2c0a4d3fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SLAVE/UNIT/PhisicUnit.cs using Guid(76ca8647d8e661a419fe46d2c0a4d3fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '46ef1af48140280e756ce718d86d0c73') in 0.015897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/raw/B2S2/Materials/Material #293.mat
+  artifactKey: Guid(9316b4e7bf9ddcb419ef43d025850fe6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/raw/B2S2/Materials/Material #293.mat using Guid(9316b4e7bf9ddcb419ef43d025850fe6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6371fe6fa94c623ea962c4a52885a178') in 0.015741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Surface/SurfacePieces/models/tubes/raw/Materials/great-solid-texture1.jpg
+  artifactKey: Guid(74c10a901f9fe9647b36308c10221bcc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/tubes/raw/Materials/great-solid-texture1.jpg using Guid(74c10a901f9fe9647b36308c10221bcc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '717a4dd33477e9ed303e9fe267335439') in 0.074687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Surface/SurfacePieces/models/space/raw/mars
+  artifactKey: Guid(8cb246b5b0f90084bbd4be068d1b1bca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/space/raw/mars using Guid(8cb246b5b0f90084bbd4be068d1b1bca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f951cac13fd4389018940f160422a33e') in 0.016955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/raw/SS/Materials/Material #116.mat
+  artifactKey: Guid(ee991c3b8de68ec4b9aad1132784735a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/raw/SS/Materials/Material #116.mat using Guid(ee991c3b8de68ec4b9aad1132784735a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9a87741f9c3b8ccb043ea9424eeadd7b') in 0.018220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Surface/SurfacePieces/models/space/raw/sun/Textures/Space-Background.jpg
+  artifactKey: Guid(b3fea636bd7fe65448f7d06b6c121cc7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/space/raw/sun/Textures/Space-Background.jpg using Guid(b3fea636bd7fe65448f7d06b6c121cc7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '81252aafb1db0253dce04486c98f6110') in 0.040023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Surface/SurfacePieces/models/space/raw/Planet Earth Pack/Materials/EarthDiffuse4096x2048.tif
+  artifactKey: Guid(b2459ef9e87d4a246beed59ef6f686a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/space/raw/Planet Earth Pack/Materials/EarthDiffuse4096x2048.tif using Guid(b2459ef9e87d4a246beed59ef6f686a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f899f0e6055f3ccc749ccef1bd2b8836') in 0.228709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Surface
+  artifactKey: Guid(cc93efdeedbef004c848bfe9e59faca0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface using Guid(cc93efdeedbef004c848bfe9e59faca0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f22e0dbacfce2e631ad79da0a28ac945') in 0.014938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/raw/B2S1/b2s1_6.fbm/esterni.jpg
+  artifactKey: Guid(adb29b0874f3f3048ba16f161f59515e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/raw/B2S1/b2s1_6.fbm/esterni.jpg using Guid(adb29b0874f3f3048ba16f161f59515e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '30e1c93503d0d0ee377f4b09544cb556') in 0.024147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/Ss_ (2).prefab
+  artifactKey: Guid(763b1b8316222b14f9d29e8f6202da68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/Ss_ (2).prefab using Guid(763b1b8316222b14f9d29e8f6202da68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd1d432ebe4a0467068ca6c171556a9c3') in 0.030888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/raw/B2S2/Materials/esterni.mat
+  artifactKey: Guid(ae6b66f5a2d853140bbcb672607122d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/raw/B2S2/Materials/esterni.mat using Guid(ae6b66f5a2d853140bbcb672607122d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ea924ab2ee7e7363a06cd858a26fa909') in 0.014175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Surface/SurfaceController/SurfaceController.cs
+  artifactKey: Guid(df577af924024e142b9d16cda6677d54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfaceController/SurfaceController.cs using Guid(df577af924024e142b9d16cda6677d54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ce4d1dc3877a1b88187e8625e291563f') in 0.012904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Surface/SurfacePieces/models/space/raw/moon
+  artifactKey: Guid(7b6fbeec993234a4c9610e036e5c5bc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/space/raw/moon using Guid(7b6fbeec993234a4c9610e036e5c5bc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3383cb2f97b8feaa5b8384f96b6ab685') in 0.014810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/raw/B2S2/Materials/Material #348.mat
+  artifactKey: Guid(e35da58e9a983504cb880802d84ceb9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/raw/B2S2/Materials/Material #348.mat using Guid(e35da58e9a983504cb880802d84ceb9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0a966bf98cc55891ca24b3426b10b963') in 0.016858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Surface/SurfacePieces/models/city
+  artifactKey: Guid(32ed7854aa9c1ee469d6dad4afe7a81f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city using Guid(32ed7854aa9c1ee469d6dad4afe7a81f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd2d53aa76f9f93be7231d2e271f33f58') in 0.011416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/raw/SS/Materials/Material #27.mat
+  artifactKey: Guid(846dd56e3e04ee947a6c5ab6105dd706) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/raw/SS/Materials/Material #27.mat using Guid(846dd56e3e04ee947a6c5ab6105dd706) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c403e5b2e1ea5e52fab81f4039fbfe6e') in 0.014717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/raw/BS/Materials/Material #172.mat
+  artifactKey: Guid(fceeda8e883e5284db51ddff48276942) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/raw/BS/Materials/Material #172.mat using Guid(fceeda8e883e5284db51ddff48276942) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7b0f3e445908d70c842620420739acf8') in 0.014077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/raw/BS/Materials/Material #150.mat
+  artifactKey: Guid(e64030a2a19290e4684013f8cdd3941b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/raw/BS/Materials/Material #150.mat using Guid(e64030a2a19290e4684013f8cdd3941b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9c40bc8d48afdc79a0f3a6cf5bf735e8') in 0.013745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/raw/SS/Materials/esterni.mat
+  artifactKey: Guid(b540c54ce6194b24c970885375544960) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/raw/SS/Materials/esterni.mat using Guid(b540c54ce6194b24c970885375544960) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bcea243731e3274135a62393df39a818') in 0.015069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PartyMonsterDuo/Prefab/P01.prefab
+  artifactKey: Guid(60ab07b23a75fbf458c80cba08df9edb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PartyMonsterDuo/Prefab/P01.prefab using Guid(60ab07b23a75fbf458c80cba08df9edb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'efcf6606bda897664374d3a805b04f15') in 0.046227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 220
+========================================================================
+Received Import Request.
+  Time since last request: 0.036741 seconds.
+  path: Assets/Surface/SurfacePieces/models/space/raw/pl2/Materials/planet_Quom1200.mat
+  artifactKey: Guid(847923b958424ad45a2e47608dd6922f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/space/raw/pl2/Materials/planet_Quom1200.mat using Guid(847923b958424ad45a2e47608dd6922f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3ef45727a192eaf61da9684d742cf8f4') in 0.020357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/raw/BS/Materials/Material #161.mat
+  artifactKey: Guid(491bc0bbbe844264d8d60147f84358a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/raw/BS/Materials/Material #161.mat using Guid(491bc0bbbe844264d8d60147f84358a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '533a03b465f328cbc22f853b6f7c5d2b') in 0.014763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/raw/BS/bs3.FBX
+  artifactKey: Guid(90b2c839cf0be0842b637e871533b4d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/raw/BS/bs3.FBX using Guid(90b2c839cf0be0842b637e871533b4d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4c66547c57aab194bb98bbf8db9fdc6e') in 0.054219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/raw/BS/Materials/Material #195.mat
+  artifactKey: Guid(5388c442094efc649bae5fdfb1d7d30f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/raw/BS/Materials/Material #195.mat using Guid(5388c442094efc649bae5fdfb1d7d30f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd864339681d8a60f33f12e09bb23c014') in 0.019165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/raw/SS/Materials/Material #61.mat
+  artifactKey: Guid(deb4d36eb6bd4824e8723849698878a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/raw/SS/Materials/Material #61.mat using Guid(deb4d36eb6bd4824e8723849698878a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd81f8b07e1d498b5e4ba54dd9709d34c') in 0.018091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/raw/B2S2/b2s2_2.fbm/esterni.jpg
+  artifactKey: Guid(5b01f9b04bb65a24592bb6943879b812) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/raw/B2S2/b2s2_2.fbm/esterni.jpg using Guid(5b01f9b04bb65a24592bb6943879b812) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9ed331b086486cdfd130995481ac223f') in 0.023161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/raw/B2S2/Materials/Material #250.mat
+  artifactKey: Guid(6de30d98b1658bc49ba77368c8ed3168) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/raw/B2S2/Materials/Material #250.mat using Guid(6de30d98b1658bc49ba77368c8ed3168) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '49bd06199b7510d291981e100a1fa3ba') in 0.021492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/raw/B2S2/b2s2_2.fbm/grass.png
+  artifactKey: Guid(d34356f7775fe5d4ea0929aec44f77ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/raw/B2S2/b2s2_2.fbm/grass.png using Guid(d34356f7775fe5d4ea0929aec44f77ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '18872fb3bb67af6bf8a88b5865a7788c') in 0.024772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/raw/B2S2/b2s2_9.fbm/esterni.jpg
+  artifactKey: Guid(1f9cee45c54f05547bee19507ff99eae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/raw/B2S2/b2s2_9.fbm/esterni.jpg using Guid(1f9cee45c54f05547bee19507ff99eae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4fab1be3dc147415f893343b87349d17') in 0.027432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/raw/BS/bs8.FBX
+  artifactKey: Guid(3b2255790e71af14aa2829ba7bafc18a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/raw/BS/bs8.FBX using Guid(3b2255790e71af14aa2829ba7bafc18a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ca60e6ef885e9a8533ddb5760bc020d5') in 0.023776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/raw/B2S1/b2s1_7.FBX
+  artifactKey: Guid(6b20367696c41db4fad067da6361e978) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/raw/B2S1/b2s1_7.FBX using Guid(6b20367696c41db4fad067da6361e978) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e141885773f6466e389f88e1c0958d73') in 0.022960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/B2s2_ (3).prefab
+  artifactKey: Guid(e27b5e1f3f521fd4db70f64e28ea7c99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/B2s2_ (3).prefab using Guid(e27b5e1f3f521fd4db70f64e28ea7c99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '63a1855e5b20e49560f0b70b32bc8547') in 0.026804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/raw/B2S1/Materials/Material #437.mat
+  artifactKey: Guid(e44ade8fec9def64484fb2d8b67d37d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/raw/B2S1/Materials/Material #437.mat using Guid(e44ade8fec9def64484fb2d8b67d37d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '91b7c6729fe774cd0067631dbdc6c807') in 0.013574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/raw/B2S2/b2s2_2.FBX
+  artifactKey: Guid(f0a9695565fad9b499d7ba3f05bbe0dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/raw/B2S2/b2s2_2.FBX using Guid(f0a9695565fad9b499d7ba3f05bbe0dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '43eba94353fd5bac4a638667ab936649') in 0.023358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/raw/BS
+  artifactKey: Guid(14230035a6862424291f7149429a4974) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/raw/BS using Guid(14230035a6862424291f7149429a4974) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3a85056437ffa501c91021eda0f29078') in 0.017075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Surface/SurfacePieces/models/tubes/bi2.prefab
+  artifactKey: Guid(4709b7f5466e40c4988197227a98a0df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/tubes/bi2.prefab using Guid(4709b7f5466e40c4988197227a98a0df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7eb6b64acac10f7db2c6731020352c01') in 0.013314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Surface/SurfacePieces/models/space/moon.prefab
+  artifactKey: Guid(c6a8e7e5f7384cd429fbb688d457ad25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/space/moon.prefab using Guid(c6a8e7e5f7384cd429fbb688d457ad25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8d1308748871cf7b34dbd0273d602d75') in 0.049619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Surface/SurfacePieces/models/tubes/tri1.prefab
+  artifactKey: Guid(59232ed1449cda7419b202e411748ee3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/tubes/tri1.prefab using Guid(59232ed1449cda7419b202e411748ee3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a290c038e76996a4f636995b0fc86a38') in 0.014792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/raw/SS/Materials
+  artifactKey: Guid(a4c7d351a022fc94383c5a521d59bd2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/raw/SS/Materials using Guid(a4c7d351a022fc94383c5a521d59bd2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd139e90834bd4ac566caffd9c0c2c9cf') in 0.014644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/raw/B2S2/Materials/Material #271.mat
+  artifactKey: Guid(9750894993626c948afc476cf5564f2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/raw/B2S2/Materials/Material #271.mat using Guid(9750894993626c948afc476cf5564f2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e9d7095199a857f77c2b4d8ff33118e0') in 0.017432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/raw/B2S1/b2s1_9.FBX
+  artifactKey: Guid(eff3cacc88338d94a9cf56db3e04c838) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/raw/B2S1/b2s1_9.FBX using Guid(eff3cacc88338d94a9cf56db3e04c838) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6dcd54cc46d1673dd0e520791d948681') in 0.035393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Surface/SurfacePieces/models/tubes/raw/four2.fbm
+  artifactKey: Guid(04c4ed4cbdc6a0145b40dcef8675d128) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/tubes/raw/four2.fbm using Guid(04c4ed4cbdc6a0145b40dcef8675d128) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '54b998bee5c62317bb0eece76d455a79') in 0.013290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Surface/DataStructure
+  artifactKey: Guid(cb38939097b8042418d7e9e2fbe21b83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/DataStructure using Guid(cb38939097b8042418d7e9e2fbe21b83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '602f4dc35bd8aa411ad37981f3660c85') in 0.012734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Surface/SLAVE/UNIT/Materials/Material #93.mat
+  artifactKey: Guid(5640de8f975c8aa4e8ca3b5e038216ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SLAVE/UNIT/Materials/Material #93.mat using Guid(5640de8f975c8aa4e8ca3b5e038216ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7f5939a3a465c40c861f348b7d4035f1') in 0.011998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/raw/SS/Materials/Material #72.mat
+  artifactKey: Guid(3ca7225af4a20e54aaf75fb70ac73c78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/raw/SS/Materials/Material #72.mat using Guid(3ca7225af4a20e54aaf75fb70ac73c78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '124e1f09ddabf1c8d9e5b272f17606d8') in 0.016433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Surface/SLAVE/UNIT/Materials/Material #92.mat
+  artifactKey: Guid(7b0c6ea6bdb4fd84f817feba055bc7dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SLAVE/UNIT/Materials/Material #92.mat using Guid(7b0c6ea6bdb4fd84f817feba055bc7dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f84bff1c17fac2646adf0eb44b879d44') in 0.015382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.144369 seconds.
+  path: Assets/Surface/SurfacePieces/models/space/astronomicalObject.cs
+  artifactKey: Guid(be9b7650827298c47b7ffbfd76ff2f54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/space/astronomicalObject.cs using Guid(be9b7650827298c47b7ffbfd76ff2f54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'db00c27986d341597c6286587f9a840c') in 0.011056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/raw/B2S2/b2s2_5.fbm/grass.png
+  artifactKey: Guid(1713ce8e3d54c6a4480149a662db21ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/raw/B2S2/b2s2_5.fbm/grass.png using Guid(1713ce8e3d54c6a4480149a662db21ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '21b35645d65721bba3975438d869f2ba') in 0.025943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Surface/Spawner.cs
+  artifactKey: Guid(dc3722256229eff48a9c9843f046756c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/Spawner.cs using Guid(dc3722256229eff48a9c9843f046756c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7536918778070135aab924b0847169c3') in 0.013572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/bs_ (6).prefab
+  artifactKey: Guid(81b1e9ea1d2704945a73fdb241128e05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/bs_ (6).prefab using Guid(81b1e9ea1d2704945a73fdb241128e05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7cce2658dbdb621cd4783345bbb805dc') in 0.016990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Surface/SurfacePieces/models/tubes/raw/bi1.fbm/30238172-solid-blue-green-background-texture-light-pastel-teal-color-and-faded-old-distressed-texture-design--Stock-Photo.jpg
+  artifactKey: Guid(7ae7069ca19a44b4dbd063a04a9d5c44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/tubes/raw/bi1.fbm/30238172-solid-blue-green-background-texture-light-pastel-teal-color-and-faded-old-distressed-texture-design--Stock-Photo.jpg using Guid(7ae7069ca19a44b4dbd063a04a9d5c44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0a90da8df112729d160de58299c8df3c') in 0.026982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/raw/B2S2/b2s2_8.fbm/esterni.jpg
+  artifactKey: Guid(d59da0c81c3375743ae5f06e9fea60af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/raw/B2S2/b2s2_8.fbm/esterni.jpg using Guid(d59da0c81c3375743ae5f06e9fea60af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '055d08ac73b6281c24ed6515117a06e1') in 0.018316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Surface/SLAVE/UNIT/Materials/01 - Default.mat
+  artifactKey: Guid(dd9e1295d3450c34e82be3f44447f88e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SLAVE/UNIT/Materials/01 - Default.mat using Guid(dd9e1295d3450c34e82be3f44447f88e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8e4c600bb8858da664270d551a5858b9') in 0.012312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/raw/SS/ss4.fbm/esterni.jpg
+  artifactKey: Guid(4b9db3fa18e4ce6409a5e83cab46e423) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/raw/SS/ss4.fbm/esterni.jpg using Guid(4b9db3fa18e4ce6409a5e83cab46e423) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd146eaad2dd3a0ae5e2745a8c25181f7') in 0.026509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/raw/B2S2/Materials/Material #282.mat
+  artifactKey: Guid(14729437d72ad404abc4d0fa44d41ebb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/raw/B2S2/Materials/Material #282.mat using Guid(14729437d72ad404abc4d0fa44d41ebb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'efd6c20cb7ad4385e518ed7020437727') in 0.015059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/b2s1_ (1).prefab
+  artifactKey: Guid(16dbf9cef6fd7f54486454d34f3dbfe4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/b2s1_ (1).prefab using Guid(16dbf9cef6fd7f54486454d34f3dbfe4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bc01ec4305841816c97c200e0e7d44a2') in 0.014383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/raw/SS/ss4.fbm/grass.png
+  artifactKey: Guid(8beb8573e452b6b4585026fa8f85b72b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/raw/SS/ss4.fbm/grass.png using Guid(8beb8573e452b6b4585026fa8f85b72b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b5edba0e32fa24912aecb33de183213a') in 0.024774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/raw/B2S1/b2s1_7.fbm/esterni.jpg
+  artifactKey: Guid(077cf1bc8322a4540bd98847484140a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/raw/B2S1/b2s1_7.fbm/esterni.jpg using Guid(077cf1bc8322a4540bd98847484140a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '989fab749520ade7325b0b1e5ff5ae7f') in 0.024628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Surface/SurfacePieces/models/tubes/raw/mono.fbm/thumby600_lualdi_basic_grigio scuro - diffuse.jpg
+  artifactKey: Guid(b07fa8ab375120349826892832334b37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/tubes/raw/mono.fbm/thumby600_lualdi_basic_grigio scuro - diffuse.jpg using Guid(b07fa8ab375120349826892832334b37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4cbadbad14802e7ca9b394dd8c08e36f') in 0.027841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/raw/B2S1/b2s1_4.fbm/esterni.jpg
+  artifactKey: Guid(7d6f058c9ee760a4eb45a5ea8c2f04e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/raw/B2S1/b2s1_4.fbm/esterni.jpg using Guid(7d6f058c9ee760a4eb45a5ea8c2f04e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e6c8353a77d4b48019ad220463810a19') in 0.026286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Surface/SurfacePieces/models/tubes/raw/mono.fbm/great-solid-texture1.jpg
+  artifactKey: Guid(8426bccc8939e8643b4a53fd09a78a21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/tubes/raw/mono.fbm/great-solid-texture1.jpg using Guid(8426bccc8939e8643b4a53fd09a78a21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '34a45210d9c0d4fe9a58b4e9188d5ae5') in 0.022509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/raw/BS/bs2.fbm
+  artifactKey: Guid(428d15acd59b12c45bf54ebd8df9ddef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/raw/BS/bs2.fbm using Guid(428d15acd59b12c45bf54ebd8df9ddef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f2e663d0d29ad37df1997b598cff47af') in 0.011120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Surface/examplesScene/tubesScene.unity
+  artifactKey: Guid(0f08f673005e90147a9530d2fab7857b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/examplesScene/tubesScene.unity using Guid(0f08f673005e90147a9530d2fab7857b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '44d2bb56e9eaddfa32e880d0ee81031d') in 0.012982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Surface/SurfacePieces/models/tubes/raw/four2.fbm/30238172-solid-blue-green-background-texture-light-pastel-teal-color-and-faded-old-distressed-texture-design--Stock-Photo.jpg
+  artifactKey: Guid(753c29ab7206c0249a45de8259de7633) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/tubes/raw/four2.fbm/30238172-solid-blue-green-background-texture-light-pastel-teal-color-and-faded-old-distressed-texture-design--Stock-Photo.jpg using Guid(753c29ab7206c0249a45de8259de7633) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c6229e35a1e2b9ab3239c33e869b2d36') in 0.033227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/raw/B2S2/b2s2_10.FBX
+  artifactKey: Guid(a2785eeca688135429fe9ae9941a0784) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/raw/B2S2/b2s2_10.FBX using Guid(a2785eeca688135429fe9ae9941a0784) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b505bf58aec88ac3748f17f2aa1aba71') in 0.024337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/raw/BS/bs8.fbm/esterni.jpg
+  artifactKey: Guid(fcdecc010c2bc5947860052cd04118f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/raw/BS/bs8.fbm/esterni.jpg using Guid(fcdecc010c2bc5947860052cd04118f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '77f5d25330418bcac052f7efd6aa47be') in 0.024577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/raw/SS/ss7.FBX
+  artifactKey: Guid(bafb21bf0589da34397862699b43efb6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/raw/SS/ss7.FBX using Guid(bafb21bf0589da34397862699b43efb6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'daa94ff982ffa660c5815dc4b498b6be') in 0.026170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/raw/SS/ss8.fbm/grass.png
+  artifactKey: Guid(6825bc4a421b08244926a05ef156661b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/raw/SS/ss8.fbm/grass.png using Guid(6825bc4a421b08244926a05ef156661b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '49d04729921bc71914f521c02f1d49e0') in 0.038335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/B2s2_ (4).prefab
+  artifactKey: Guid(cddbdccba73813f43b1b275e8a37ed5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/B2s2_ (4).prefab using Guid(cddbdccba73813f43b1b275e8a37ed5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c6299f5f38636c40c3cb7936c6aaa9bb') in 0.028451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/raw/BS/bs6.fbm/grass.png
+  artifactKey: Guid(0f98ba6a54f7cae46b4b6ee2610c5f45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/raw/BS/bs6.fbm/grass.png using Guid(0f98ba6a54f7cae46b4b6ee2610c5f45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '80224aa399db8b2ed8c01554cee26272') in 0.042218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Surface/SurfacePieces/models/tubes/raw/bi3.fbm/30238172-solid-blue-green-background-texture-light-pastel-teal-color-and-faded-old-distressed-texture-design--Stock-Photo.jpg
+  artifactKey: Guid(2e4eaac2b4fafff4da5bde3a686f65e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/tubes/raw/bi3.fbm/30238172-solid-blue-green-background-texture-light-pastel-teal-color-and-faded-old-distressed-texture-design--Stock-Photo.jpg using Guid(2e4eaac2b4fafff4da5bde3a686f65e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6c4d995bd8d206f87f2fdc72a74954c7') in 0.041941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/raw/B2S2/b2s2_6.FBX
+  artifactKey: Guid(a551c0c5d62272b4b9de8b03513d1b56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/raw/B2S2/b2s2_6.FBX using Guid(a551c0c5d62272b4b9de8b03513d1b56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f7ad3f0a5eff7fd9bc1dc7615cc069f7') in 0.026410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/raw/B2S2/b2s2_6.fbm/grass.png
+  artifactKey: Guid(12d06cfa2de373f49be766351b7913e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/raw/B2S2/b2s2_6.fbm/grass.png using Guid(12d06cfa2de373f49be766351b7913e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0762253bc44bbb8d8d5e43ba852711f9') in 0.019935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/raw/B2S2/b2s2_10.fbm/esterni.jpg
+  artifactKey: Guid(702ac03d483972e418fad9fe16cb69c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/raw/B2S2/b2s2_10.fbm/esterni.jpg using Guid(702ac03d483972e418fad9fe16cb69c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'efd384900d99852053f23ed65699d3eb') in 0.031902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Materials/Materials Nieves y Alejandro
+  artifactKey: Guid(f7061f0d97eed7d4e800cfbaa80a03e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/Materials Nieves y Alejandro using Guid(f7061f0d97eed7d4e800cfbaa80a03e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6d3a41c1dc2bd3d549339ef7d14a71e5') in 0.017824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Surface/SurfacePieces/models/tubes/raw/bi1.fbm/thumby600_lualdi_basic_grigio scuro - diffuse.jpg
+  artifactKey: Guid(18fd2f71caa3f5446bc120afa29aeb05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/tubes/raw/bi1.fbm/thumby600_lualdi_basic_grigio scuro - diffuse.jpg using Guid(18fd2f71caa3f5446bc120afa29aeb05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '77fa5f1b289124b9242437e06d523abe') in 0.031860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Lava_Flowing_Shader/Materials/mtl_lava_distort_transparent.mat
+  artifactKey: Guid(4c11e54477bc94744a2fa3433d9fa306) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lava_Flowing_Shader/Materials/mtl_lava_distort_transparent.mat using Guid(4c11e54477bc94744a2fa3433d9fa306) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b3af6cd76f7167ebbc4a4a5228a19d27') in 0.051489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Lava_Flowing_Shader/Scenes/FLowingLavaSettings.lighting
+  artifactKey: Guid(21c999aff24266746a84a03cd73085bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lava_Flowing_Shader/Scenes/FLowingLavaSettings.lighting using Guid(21c999aff24266746a84a03cd73085bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'f64f4217ed2d2033fbb2728b83077ae7') in 0.054445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnClickRpc.cs
+  artifactKey: Guid(2cd0ed7420882554fa146aab6aeb2e80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnClickRpc.cs using Guid(2cd0ed7420882554fa146aab6aeb2e80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bf75bee75edfa0b1b6ec0f7e66ea6844') in 0.019215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/raw/B2S1/b2s1_7.fbm/grass.png
+  artifactKey: Guid(fe6db3b3e0060594f89b182de211bae7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/raw/B2S1/b2s1_7.fbm/grass.png using Guid(fe6db3b3e0060594f89b182de211bae7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0f52463ad9869ec5fce6dd0ed1aab993') in 0.029396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Surface/SLAVE/UNIT/SurfaceUnit.fbm/wildtextures-seamless-checkerplate-metal-sheet.jpg
+  artifactKey: Guid(8d4adfccdd5ac024ba5face817951063) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SLAVE/UNIT/SurfaceUnit.fbm/wildtextures-seamless-checkerplate-metal-sheet.jpg using Guid(8d4adfccdd5ac024ba5face817951063) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '70804b0f02748e8511fd3e2df3d8e5e3') in 0.043367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/raw/BS/bs4.fbm
+  artifactKey: Guid(2dab27afc52642e4e8baffefa0723430) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/raw/BS/bs4.fbm using Guid(2dab27afc52642e4e8baffefa0723430) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5678c9d206dd9cb75b8e09fa9d2ad0f9') in 0.016851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Scripts/AsteroidsGame.cs
+  artifactKey: Guid(a3a5d301bebde6547b43d377600a3e57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Scripts/AsteroidsGame.cs using Guid(a3a5d301bebde6547b43d377600a3e57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e428bc5074f85a2a33f312e1602ba357') in 0.014535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/BezierControlPointMode.cs
+  artifactKey: Guid(1c78ec24cea4e478bb35a5ce401fa7a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/BezierControlPointMode.cs using Guid(1c78ec24cea4e478bb35a5ce401fa7a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c06e0d03fed606cb1224f4d2591b86bb') in 0.033960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Lava_Flowing_Shader/Materials/mtl_lava_diffuse.mat
+  artifactKey: Guid(c5b6432eb5c5ecd41a1c5065d2686911) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lava_Flowing_Shader/Materials/mtl_lava_diffuse.mat using Guid(c5b6432eb5c5ecd41a1c5065d2686911) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8aa5c0a156f5cfe635f3c9f9d956c576') in 0.031771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Lava_Flowing_Shader/Prefabs/Lava_diffuse.prefab
+  artifactKey: Guid(86672f35e84daff4699b96a3c82ee675) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lava_Flowing_Shader/Prefabs/Lava_diffuse.prefab using Guid(86672f35e84daff4699b96a3c82ee675) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ff366dfca174b4a79bcb8d2a8f00709c') in 0.027181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Lava_Flowing_Shader/Scenes
+  artifactKey: Guid(d1e873dc890a11a40a82a8a7d8b2cf15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lava_Flowing_Shader/Scenes using Guid(d1e873dc890a11a40a82a8a7d8b2cf15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5065eb75051d31cd56f220cff875ea51') in 0.012210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Lava_Flowing_Shader/Prefabs
+  artifactKey: Guid(98de54e952a28364c84cbacefd011abb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lava_Flowing_Shader/Prefabs using Guid(98de54e952a28364c84cbacefd011abb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '190962e416bdcf8695c98a1841f7ed05') in 0.015429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonViewHandler.cs
+  artifactKey: Guid(57b538e62a0ca6248bfd354def935e57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/Editor/PhotonViewHandler.cs using Guid(57b538e62a0ca6248bfd354def935e57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '57e38823a97b3f62d9425fbab89279d5') in 0.015648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Lava_Flowing_Shader/Shaders/Unlit_Lava_Distort_Transparent.shader
+  artifactKey: Guid(0803b816564bc844b9300c6e1572fcff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lava_Flowing_Shader/Shaders/Unlit_Lava_Distort_Transparent.shader using Guid(0803b816564bc844b9300c6e1572fcff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4557555b4518b6e39c6935847cb583aa') in 0.019141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Surface/SurfacePieces/models/tubes/raw/four1.fbm
+  artifactKey: Guid(f3b780a8c51351e45bfd0a348395bc4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/tubes/raw/four1.fbm using Guid(f3b780a8c51351e45bfd0a348395bc4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '546de29576f5990ba0ac5982affc78ad') in 0.016991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Models/Materials/SpaceshipHull.mat
+  artifactKey: Guid(de6b3d1666741b24597a4349a143eeb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Models/Materials/SpaceshipHull.mat using Guid(de6b3d1666741b24597a4349a143eeb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '21f5fff59e5dd219ed78ae66ad94e21f') in 0.015549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Surface/SurfacePieces/models/tubes/raw/tri2.fbm/30238172-solid-blue-green-background-texture-light-pastel-teal-color-and-faded-old-distressed-texture-design--Stock-Photo.jpg
+  artifactKey: Guid(b6977a268c9af12429b42915ce0f2600) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/tubes/raw/tri2.fbm/30238172-solid-blue-green-background-texture-light-pastel-teal-color-and-faded-old-distressed-texture-design--Stock-Photo.jpg using Guid(b6977a268c9af12429b42915ce0f2600) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2a10bedfeddcdc5924c0cee3919d37e9') in 0.022635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Photon/PhotonRealtime/Code/ConnectionHandler.cs
+  artifactKey: Guid(f0b3ce6748186d3468e0dbaecb38b04c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonRealtime/Code/ConnectionHandler.cs using Guid(f0b3ce6748186d3468e0dbaecb38b04c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ec42eadb122a94e5736819dcc8e0d58d') in 0.015378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/insides_3.mat
+  artifactKey: Guid(cdcec2345c1d1af4da10b1c5d9cbff65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/insides_3.mat using Guid(cdcec2345c1d1af4da10b1c5d9cbff65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b19d18e532dadfd16e6efaacac8d15db') in 0.015031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/UtilityScripts/Room/CountdownTimer.cs
+  artifactKey: Guid(ffc398cf76e6d458caf303b5fceea504) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/UtilityScripts/Room/CountdownTimer.cs using Guid(ffc398cf76e6d458caf303b5fceea504) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'db64b7ff71a5bdfed4fd2e2fbdb41e08') in 0.015936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/BezierCurveInspector.cs
+  artifactKey: Guid(28cd1cdefdaf24d6cb98f0cb87845b3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/BezierCurveInspector.cs using Guid(28cd1cdefdaf24d6cb98f0cb87845b3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e104e8530481e77aaff90337ded53bf9') in 0.016421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Scripts/ThirdPersonCharacter.cs
+  artifactKey: Guid(d8bc6cf2d5b0fa7468adcfed2d0454aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Scripts/ThirdPersonCharacter.cs using Guid(d8bc6cf2d5b0fa7468adcfed2d0454aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5153081f895c8cc46fc55090441869f9') in 0.014633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Photon/PhotonRealtime/Code/FriendInfo.cs
+  artifactKey: Guid(94ba1138c322ea04c8c37cfbcf87f468) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonRealtime/Code/FriendInfo.cs using Guid(94ba1138c322ea04c8c37cfbcf87f468) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '45b5bdcb0bfc16d113486db6fb46ac20') in 0.016566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoProcedural/Materials/Red.mat
+  artifactKey: Guid(ad7ce727a68a61f4897679b81da7b344) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoProcedural/Materials/Red.mat using Guid(ad7ce727a68a61f4897679b81da7b344) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b8e0e18c0a105099772072cf1bbe7411') in 0.014930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/PhotonNetworkPart.cs
+  artifactKey: Guid(cbf2b3734a024f842bd50f8738feb400) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/PhotonNetworkPart.cs using Guid(cbf2b3734a024f842bd50f8738feb400) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '87d81b6f78f3b0f37e5df35e6d67a07f') in 0.015267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Photon/Fusion/release_history.txt
+  artifactKey: Guid(5705adcaad7c31b439ed88af045846a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/Fusion/release_history.txt using Guid(5705adcaad7c31b439ed88af045846a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a21dcb1ca8bf9c0c8c65b53c6c6728fe') in 0.023575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scripts/PlayerUI.cs
+  artifactKey: Guid(dba1a179e553446f0a08606778f559f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scripts/PlayerUI.cs using Guid(dba1a179e553446f0a08606778f559f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '008bf6e9f366c00a2b44945b379d3bbb') in 0.016327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Autonomous UI/Generic/IntInputField.cs
+  artifactKey: Guid(bd06272cdb8d849f0ab251f0678c9eca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Autonomous UI/Generic/IntInputField.cs using Guid(bd06272cdb8d849f0ab251f0678c9eca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c08b3dcd6584ed6e010814acaf2e29c0') in 0.014866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/roadRampLongCurvedWall.fbx
+  artifactKey: Guid(002276cc119770f4c8b9797abd47f7e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/roadRampLongCurvedWall.fbx using Guid(002276cc119770f4c8b9797abd47f7e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '37e279cb48211693d69fa277468a4cf4') in 0.040613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/InfosPanelPlaceholder.cs
+  artifactKey: Guid(d85daee5b585047f89b7e2dde78b336b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/InfosPanelPlaceholder.cs using Guid(d85daee5b585047f89b7e2dde78b336b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b35d6654da5890f36c35e840ddf3b382') in 0.015766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Materials/FlyerAsteroid.mat
+  artifactKey: Guid(968fc57e6928a5448ae7d0644246d534) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Materials/FlyerAsteroid.mat using Guid(968fc57e6928a5448ae7d0644246d534) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ac0f5277c1b5f6b3fa76a3b18fe1eda2') in 0.029840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/roadStartPositions.fbx
+  artifactKey: Guid(f5a5b74b30add9048911cae29679bbce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/roadStartPositions.fbx using Guid(f5a5b74b30add9048911cae29679bbce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f9d8c8f6156f5ae4be9684596089bb08') in 0.039853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/CurrentRoomPlayerCountProperty.cs
+  artifactKey: Guid(333fe1be201784f8382dd2e7a1d5c610) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/CurrentRoomPlayerCountProperty.cs using Guid(333fe1be201784f8382dd2e7a1d5c610) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8860ca0fc988c9a435b9cd6a3291e154') in 0.013720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ThirdParty/PunCockpitEmbed.cs
+  artifactKey: Guid(850bc9a492af040b49a0ffe115a7614b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ThirdParty/PunCockpitEmbed.cs using Guid(850bc9a492af040b49a0ffe115a7614b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '65b303523cb4dcdd43af6cb5052db021') in 0.016963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/raw/BS/bs7.fbm
+  artifactKey: Guid(2eb98e03282ac2941ac0995f66207b7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/raw/BS/bs7.fbm using Guid(2eb98e03282ac2941ac0995f66207b7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8ad1483429cbeb99eebf40de5b5767b6') in 0.015341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/flagGreen.fbx
+  artifactKey: Guid(b2c239f9b60751e4ab9034c7f2ad66b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/flagGreen.fbx using Guid(b2c239f9b60751e4ab9034c7f2ad66b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5739c98be3783660c6c8a3092ff05bee') in 0.035032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Lava_Flowing_Shader/Materials/mtl_lava_distort.mat
+  artifactKey: Guid(787cb25de3401c44b939f2599cda764c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lava_Flowing_Shader/Materials/mtl_lava_distort.mat using Guid(787cb25de3401c44b939f2599cda764c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '79cf9a6fae82b5790e5847a7b82993d9') in 0.016444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Prefabs/UI/Tooltip.prefab
+  artifactKey: Guid(87d5aa043215a47cba8b74ae3490a936) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Prefabs/UI/Tooltip.prefab using Guid(87d5aa043215a47cba8b74ae3490a936) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2f2029ff5ef4704edafa91933de37681') in 0.057110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Lava_Flowing_Shader/Textures
+  artifactKey: Guid(f322c4288d0184a4d9b44d7945b17307) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lava_Flowing_Shader/Textures using Guid(f322c4288d0184a4d9b44d7945b17307) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '817acfc2cf2a7b35add0a6b662cfd377') in 0.013324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Photon/PhotonChat/Code/ChatOperationCode.cs
+  artifactKey: Guid(c90a2a73f3ce648409739c724d3e6cef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonChat/Code/ChatOperationCode.cs using Guid(c90a2a73f3ce648409739c724d3e6cef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6122676e95308a7bf4ca5def0c006b55') in 0.011517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/roadCornerSmallBorder.fbx
+  artifactKey: Guid(f34457aefb5bca94fa9fb35aa61fb3e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/roadCornerSmallBorder.fbx using Guid(f34457aefb5bca94fa9fb35aa61fb3e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '13b52997ffe3a29bd37f1d5940515bf9') in 0.035850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef
+  artifactKey: Guid(e9a89c21e4f5b294eb31fb8166e13303) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunDemos.DemoHubEditor.asmdef using Guid(e9a89c21e4f5b294eb31fb8166e13303) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7917a2ebeb08e2d20f57b54261d53319') in 0.024766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunStartup.cs
+  artifactKey: Guid(6bafe5c223c99ab44a5f70010efdae47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Editor/PunStartup.cs using Guid(6bafe5c223c99ab44a5f70010efdae47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5f808953cfbd972d033f09432ec8aafc') in 0.015436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Prefabs/UI/Toggle Regular.prefab
+  artifactKey: Guid(82b2227f60269dd46b9a921faca9dc1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Prefabs/UI/Toggle Regular.prefab using Guid(82b2227f60269dd46b9a921faca9dc1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '647c58b0fdd7522ee2d0cbc21488e766') in 0.067460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/Interfaces/IPhotonViewCallbacks.cs
+  artifactKey: Guid(d67b3e094fcbf004da7f8771c17126f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/Interfaces/IPhotonViewCallbacks.cs using Guid(d67b3e094fcbf004da7f8771c17126f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'db9f4a9844e18ba16e8676ea993324d2') in 0.014222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Photon/Fusion/Runtime/Statistics/Prefabs/StatisticsRenderGraph.prefab
+  artifactKey: Guid(a09170bc25723ba48b6d4d36f6201acd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/Fusion/Runtime/Statistics/Prefabs/StatisticsRenderGraph.prefab using Guid(a09170bc25723ba48b6d4d36f6201acd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '78e433b1bf549514734fe5fbc472c8e5') in 0.022978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Scripts/Lobby/LobbyTopPanel.cs
+  artifactKey: Guid(fe0a55ef565e3984f8866c5c91e3c2fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Scripts/Lobby/LobbyTopPanel.cs using Guid(fe0a55ef565e3984f8866c5c91e3c2fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9227fd87a5a04d5b4933804f959ca870') in 0.013048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/CurrentRoomIsVisibleProperty.cs
+  artifactKey: Guid(9caca36858e0a4cdb9511261f0525c72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/CurrentRoomIsVisibleProperty.cs using Guid(9caca36858e0a4cdb9511261f0525c72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6e91d3725fa951f9bad4a1108f3898a3') in 0.016137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Photon/Fusion/CodeGen/Fusion.CodeGen.User.cs
+  artifactKey: Guid(5f9faa3ffc014c941995a81138385040) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/Fusion/CodeGen/Fusion.CodeGen.User.cs using Guid(5f9faa3ffc014c941995a81138385040) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'aade4efdc345b7db00cf228e5ed6a6df') in 0.015450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Photon/Fusion/Editor/FusionEditorConfigImporter.cs
+  artifactKey: Guid(de703c9ba568c804997917200422ce7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/Fusion/Editor/FusionEditorConfigImporter.cs using Guid(de703c9ba568c804997917200422ce7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '28f54d040cb196ed4d92d60d5f8a3bc9') in 0.015177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Bezier.cs
+  artifactKey: Guid(2b14b8c3e9cc04a13898e1e50c9f1024) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Bezier.cs using Guid(2b14b8c3e9cc04a13898e1e50c9f1024) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e837d8caabd36d4ba003550dc9f327eb') in 0.017466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/CountOfPlayersProperty.cs
+  artifactKey: Guid(c65e89c2d31b54d119911da56af443b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/CountOfPlayersProperty.cs using Guid(c65e89c2d31b54d119911da56af443b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5822655e42c1216ba592e5fdc7646e19') in 0.021702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs
+  artifactKey: Guid(f4e65968c7102bf42a77b6a5cade8743) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonRealtime/Code/LoadBalancingClient.cs using Guid(f4e65968c7102bf42a77b6a5cade8743) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '79347bca960665e104d1e2e8605ec87b') in 0.043993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/CurrentRoomIsOpenProperty.cs
+  artifactKey: Guid(616aae5178f614b47911b3ada06ac650) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/CurrentRoomIsOpenProperty.cs using Guid(616aae5178f614b47911b3ada06ac650) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e5df411815edbcc2cbb7992fcd63db91') in 0.015673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/No Name.mat
+  artifactKey: Guid(a773bd7a075f9534e9c9ed1eb6e9a30f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/No Name.mat using Guid(a773bd7a075f9534e9c9ed1eb6e9a30f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd9f7d4460e2a79e533cdecd88e1b5730') in 0.016746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Photon/Fusion/Runtime/Utilities/RunnerVisibility/RunnerAOIGizmos.cs
+  artifactKey: Guid(a09b7c3c2f0604fef93beb7057001dbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/Fusion/Runtime/Utilities/RunnerVisibility/RunnerAOIGizmos.cs using Guid(a09b7c3c2f0604fef93beb7057001dbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '774bc211c9c88f0846aa7ea480284aa4') in 0.016157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/raw/B2S1/b2s1_3.fbm
+  artifactKey: Guid(33ede5d2be523a541968be7a165cab28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/raw/B2S1/b2s1_3.fbm using Guid(33ede5d2be523a541968be7a165cab28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e64c58f1cd8d3cf9329d65c9ab3a83c3') in 0.018246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/raw/B2S2/b2s2_8.FBX
+  artifactKey: Guid(4492903375663784096207180db39496) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/raw/B2S2/b2s2_8.FBX using Guid(4492903375663784096207180db39496) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ad99d6bfba0615d40aa615e888f139de') in 0.023668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/Editor/Views/MonoBehaviourPunEditor.cs
+  artifactKey: Guid(6da457ee57ad5794782f1f76644536e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/Editor/Views/MonoBehaviourPunEditor.cs using Guid(6da457ee57ad5794782f1f76644536e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '402ef42b741825f9a65d5afdb7ac7f39') in 0.014273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnClickDestroy.cs
+  artifactKey: Guid(9dab7328ba500e944a99d62065fba6c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnClickDestroy.cs using Guid(9dab7328ba500e944a99d62065fba6c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '730317605cfd13d24447401010cf025a') in 0.017064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/Materials/SuitMaterial.mat
+  artifactKey: Guid(ed4e4079e2e99084d8d914283565fc5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Animations/Materials/SuitMaterial.mat using Guid(ed4e4079e2e99084d8d914283565fc5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c61c6acf09b4c65122c9012d69949dd1') in 0.015930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/raw/SS/ss7.fbm/esterni.jpg
+  artifactKey: Guid(7732dd51fdac6ee4193db46f23715335) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/raw/SS/ss7.fbm/esterni.jpg using Guid(7732dd51fdac6ee4193db46f23715335) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c9e0fccefc15500ca23e08ad7894c103') in 0.023393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Scripts/Lobby/PlayerListEntry.cs
+  artifactKey: Guid(6b92420fa27b32d43a6a35af7781c5d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Scripts/Lobby/PlayerListEntry.cs using Guid(6b92420fa27b32d43a6a35af7781c5d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6ca871ec052540f323176f1c83f5ebd7') in 0.013511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Photon/Fusion/Runtime/Fusion.Unity.AssemblyAttributes.cs
+  artifactKey: Guid(87e3886742c1ae04096a83c7188f1d9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/Fusion/Runtime/Fusion.Unity.AssemblyAttributes.cs using Guid(87e3886742c1ae04096a83c7188f1d9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4c201e24de59d912f8d8c6cc558062ed') in 0.017119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/CloudRegionProperty.cs
+  artifactKey: Guid(e873bef6b926e45989cc835cb13ef3c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/CloudRegionProperty.cs using Guid(e873bef6b926e45989cc835cb13ef3c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '497b0e45aa88f6c1000985e4a6089425') in 0.013580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/PhotonView.cs
+  artifactKey: Guid(aa584fbee541324448dd18d8409c7a41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/PhotonView.cs using Guid(aa584fbee541324448dd18d8409c7a41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f236a1f67098d91efaa6dd7daae1f385') in 0.013123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoProcedural/Scripts/Block.cs
+  artifactKey: Guid(8b205f33043c113489ab36d5b56f7730) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoProcedural/Scripts/Block.cs using Guid(8b205f33043c113489ab36d5b56f7730) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '19268cf0643042a08d14a5c8eb99186e') in 0.016174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Scripts/DocLinks.cs
+  artifactKey: Guid(07e445bad5cb64ae8ad6661ce248d844) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Scripts/DocLinks.cs using Guid(07e445bad5cb64ae8ad6661ce248d844) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6fe67f20c3e6f4982c60461a978aaff3') in 0.014557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Autonomous UI/Generic/ToggleExpand.cs
+  artifactKey: Guid(50b3f63970a204e72b36153eb93684bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Autonomous UI/Generic/ToggleExpand.cs using Guid(50b3f63970a204e72b36153eb93684bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5beff02696abc998c00808e01f636e72') in 0.016783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/roadStraightBridgeStart.fbx
+  artifactKey: Guid(f3190f178f6804a438514c250f12db6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/roadStraightBridgeStart.fbx using Guid(f3190f178f6804a438514c250f12db6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6b0c44a2d219130d6ae468becc402691') in 0.035658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/Editor/Views/PhotonTransformViewEditor.cs
+  artifactKey: Guid(a8c9ec475ad103b43b901d942ff66e02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/Editor/Views/PhotonTransformViewEditor.cs using Guid(a8c9ec475ad103b43b901d942ff66e02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2c2503314296ab098247c6f14cacf9d9') in 0.017549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Photon/Fusion/Editor/FusionWeaverTriggerImporter.cs
+  artifactKey: Guid(ad51894a651725c42acc54ccd6a81282) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/Fusion/Editor/FusionWeaverTriggerImporter.cs using Guid(ad51894a651725c42acc54ccd6a81282) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e856279d2330a443092201e041edb7e6') in 0.016393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Photon/Fusion/Editor/NetworkProjectConfigImporter.cs
+  artifactKey: Guid(66a64a17d0b40f34f9224317a5a84bf2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/Fusion/Editor/NetworkProjectConfigImporter.cs using Guid(66a64a17d0b40f34f9224317a5a84bf2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ae8758970c65fad8ff60feaed5536f12') in 0.015102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/WebRpcImplementationExample.cs
+  artifactKey: Guid(e5c26fb35dbf64c4eb0d1f24f1a853e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/WebRpcImplementationExample.cs using Guid(e5c26fb35dbf64c4eb0d1f24f1a853e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '35218ee37e2ffb432b3d3303fbefa9b7') in 0.012578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoProcedural/Procedural-Scene.unity
+  artifactKey: Guid(e1fad393017993c4893877b645062417) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoProcedural/Procedural-Scene.unity using Guid(e1fad393017993c4893877b645062417) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '608d0758feaf214d720efa4685cdf5e4') in 0.012582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Materials/Robot_Color.mat
+  artifactKey: Guid(0aa851515cd3747d6b3b3e461199a2ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Materials/Robot_Color.mat using Guid(0aa851515cd3747d6b3b3e461199a2ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dbbb0a42cf57f8363de6892dfbbb3227') in 0.043361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Photon/Fusion/Runtime/Statistics/FusionStatsGraphMaterial.mat
+  artifactKey: Guid(20f9b98d6ad29584c912ad547627b2cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/Fusion/Runtime/Statistics/FusionStatsGraphMaterial.mat using Guid(20f9b98d6ad29584c912ad547627b2cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b1b0bffad1fd2fa3be8ab48904d4293b') in 0.020461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/ground_green232.mat
+  artifactKey: Guid(fd4000dd854ad0e40ba2a59fab94cad1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/ground_green232.mat using Guid(fd4000dd854ad0e40ba2a59fab94cad1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '199b0d17cba5afa642c8414404d29670') in 0.019313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Photon/PhotonRealtime/Code/Extensions.cs
+  artifactKey: Guid(3c0464991e33a70498abdd85c150cc59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonRealtime/Code/Extensions.cs using Guid(3c0464991e33a70498abdd85c150cc59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a933b5641518ef5517b440750078f23b') in 0.015339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/CurrentRoomAutoCleanupProperty.cs
+  artifactKey: Guid(b5de4d7e09db242c4aa0d47c4416630b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/CurrentRoomAutoCleanupProperty.cs using Guid(b5de4d7e09db242c4aa0d47c4416630b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e6a428df7c69efa6fbba8444da1f5d59') in 0.016482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/ServerAddressProperty.cs
+  artifactKey: Guid(f467ca90418914fcd959dcc9ebb1edca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/ServerAddressProperty.cs using Guid(f467ca90418914fcd959dcc9ebb1edca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3d4cc22958af7b4ec9ded6397bdf676a') in 0.016936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Scenes/DemoAsteroids-GameScene.unity
+  artifactKey: Guid(98efc37d6307844488eb3e4247dde7e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Scenes/DemoAsteroids-GameScene.unity using Guid(98efc37d6307844488eb3e4247dde7e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6222fc03b4f7b4a9ab25c438374e5e9d') in 0.013811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef
+  artifactKey: Guid(7024f760fc566cf45a16d2c838e22b2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/Editor/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.asmdef using Guid(7024f760fc566cf45a16d2c838e22b2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5071a101d339b26609168a05507b1e56') in 0.019888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Lists/RoomListView.cs
+  artifactKey: Guid(f5c9e34bb9f7d43a4a17eb45abbba66e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Lists/RoomListView.cs using Guid(f5c9e34bb9f7d43a4a17eb45abbba66e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '523b49e7facf54da5d61cc5d5f20eb0c') in 0.013928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Surface/SurfacePieces/models/city/raw/B2S1/b2s1_8.fbm/esterni.jpg
+  artifactKey: Guid(998cd4d58473e8c4583acb2447c86afb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/city/raw/B2S1/b2s1_8.fbm/esterni.jpg using Guid(998cd4d58473e8c4583acb2447c86afb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e0522aa2ad58112d1d3996687b8de0c9') in 0.022786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Surface/SurfacePieces/models/tubes/raw/bi1.fbm/great-solid-texture1.jpg
+  artifactKey: Guid(e8ca1a53c809ccc4089309fa320a84fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/tubes/raw/bi1.fbm/great-solid-texture1.jpg using Guid(e8ca1a53c809ccc4089309fa320a84fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0daa06705d90793e4f4a0ddce789b631') in 0.028207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Models/Materials/Asteroid.mat
+  artifactKey: Guid(be2c382f522695c4fa3947ac8e1d4457) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Models/Materials/Asteroid.mat using Guid(be2c382f522695c4fa3947ac8e1d4457) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7b4db1012c909907b6d163cee91efbb7') in 0.015498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef
+  artifactKey: Guid(66eabdb1ed6f5d041a6906290472e432) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Scripts/BezierCurve/Editor/PunDemos.DemoSlotcarEditor.asmdef using Guid(66eabdb1ed6f5d041a6906290472e432) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ed5fc7a6565fff6f221a320ed8913cc3') in 0.023053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Surface/SurfacePieces/models/space/nothing.prefab
+  artifactKey: Guid(43f838b0c42c89848bbcf7f538ac39d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Surface/SurfacePieces/models/space/nothing.prefab using Guid(43f838b0c42c89848bbcf7f538ac39d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '436f165ab17e36a1c23a4a9eafe3cea6') in 0.016813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/PropertyFields/UserIdField.cs
+  artifactKey: Guid(4cc6aa808aba246ffa12d8e765f470ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/PropertyFields/UserIdField.cs using Guid(4cc6aa808aba246ffa12d8e765f470ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8a2c39c5fcafc5ccd297004e9b0b5b18') in 0.014664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Photon/Fusion/Runtime/Statistics/FusionStatsGraphShader.shader
+  artifactKey: Guid(f723a494700aee146aa96072604b48c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/Fusion/Runtime/Statistics/FusionStatsGraphShader.shader using Guid(f723a494700aee146aa96072604b48c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd5be48b45f103b4e48bc98f53c6d5f2a') in 0.016934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Controllers/PlayerDetailsController.cs
+  artifactKey: Guid(a9eaa48793ddf4344b22871af0652c69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Controllers/PlayerDetailsController.cs using Guid(a9eaa48793ddf4344b22871af0652c69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cfeb2ab97f2d223c5ddeb7bff8d67102') in 0.017707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Materials/FlyerPlayership.mat
+  artifactKey: Guid(99fced4bc2985174cac8512dc765d2bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Materials/FlyerPlayership.mat using Guid(99fced4bc2985174cac8512dc765d2bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'eac6ff21ddc989490e4d4d49f5da435b') in 0.055142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/PropertyListenerBase.cs
+  artifactKey: Guid(4be7d208de29c469d8cc6e686be2329c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/PropertyListenerBase.cs using Guid(4be7d208de29c469d8cc6e686be2329c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd480dae64dac84cc2a31bcfb20d08619') in 0.018642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/AppVersionProperty.cs
+  artifactKey: Guid(cd20e7aa24847434aae5f175732ef601) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/AppVersionProperty.cs using Guid(cd20e7aa24847434aae5f175732ef601) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5ad23745e2f9910574f148c133111069') in 0.014878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Photon/Fusion/Runtime/Statistics/FusionStatsWorldAnchor.cs
+  artifactKey: Guid(b922ea457e8e4de6bfea00a8cc1eca80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/Fusion/Runtime/Statistics/FusionStatsWorldAnchor.cs using Guid(b922ea457e8e4de6bfea00a8cc1eca80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0fcec131a2e4cd9023327eece9b530ff') in 0.016647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Photon/Fusion/Editor/EditorResources/Fonts/OFL.txt
+  artifactKey: Guid(db2794fb134f41649947dbdbcac93dee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/Fusion/Editor/EditorResources/Fonts/OFL.txt using Guid(db2794fb134f41649947dbdbcac93dee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fec48e425db77dd42e67a2dcf04944b1') in 0.020848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/Materials/bark.mat
+  artifactKey: Guid(5b3826dd21e1d2b4a947c774023d1db3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/Materials/bark.mat using Guid(5b3826dd21e1d2b4a947c774023d1db3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ed1f81823e567199d2a0243645cc8bd7') in 0.019980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/Editor/Views/PhotonRigidbody2DViewEditor.cs
+  artifactKey: Guid(3a82e8e86b9eecb40ac3f6ebc949f6ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/Editor/Views/PhotonRigidbody2DViewEditor.cs using Guid(3a82e8e86b9eecb40ac3f6ebc949f6ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3d2257d5a1e8dae92674616e88eb9eae') in 0.017538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Materials/UnitCircleMaterial.mat
+  artifactKey: Guid(fb6c12085a6b0a5429029fcd6478a816) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Materials/UnitCircleMaterial.mat using Guid(fb6c12085a6b0a5429029fcd6478a816) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'addd7ee1b469dbf62a717dcfe2dc697f') in 0.029512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Photon/PhotonRealtime/Code/Player.cs
+  artifactKey: Guid(e3e4b5bebc687044b9c6c2803c36be3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonRealtime/Code/Player.cs using Guid(e3e4b5bebc687044b9c6c2803c36be3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bd4e02b5b892e99e5e895317755475db') in 0.018353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnJoinedInstantiate.cs
+  artifactKey: Guid(ed3b5dcba7bf9114cb13fc59e0a71f55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/UtilityScripts/Prototyping/OnJoinedInstantiate.cs using Guid(ed3b5dcba7bf9114cb13fc59e0a71f55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '65e26519f6e3f1cb9a9c3b659a1f4444') in 0.015992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Photon/PhotonChat/Code/ChatUserStatus.cs
+  artifactKey: Guid(7db67e7f5face2e42b6daafcaf4e6c82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonChat/Code/ChatUserStatus.cs using Guid(7db67e7f5face2e42b6daafcaf4e6c82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '52ecd9254faa8120541bce615a6f7eb4') in 0.018408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoProcedural/Materials/LightGreen.mat
+  artifactKey: Guid(cd644746d7159df42b0c206b559af881) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoProcedural/Materials/LightGreen.mat using Guid(cd644746d7159df42b0c206b559af881) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5029a8a7b95e9a9561604e3220479957') in 0.017571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Autonomous UI/SendRateField.cs
+  artifactKey: Guid(f6ed1c2b7c01b4b3cba625a08a991c7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Autonomous UI/SendRateField.cs using Guid(f6ed1c2b7c01b4b3cba625a08a991c7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '37b40b1c08108fabd49aa101dadef64b') in 0.018281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Photon/Fusion/Assemblies/Fusion.Runtime.xml
+  artifactKey: Guid(d461b7cc07b37504f94b4a901b69e494) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/Fusion/Assemblies/Fusion.Runtime.xml using Guid(d461b7cc07b37504f94b4a901b69e494) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e266eef32c595b997849cee882ee278e') in 0.026930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/OfflineModeProperty.cs
+  artifactKey: Guid(edcf52eea40f24f198dce8342b53bcc4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/ReadOnlyProperties/OfflineModeProperty.cs using Guid(edcf52eea40f24f198dce8342b53bcc4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8eb57a6ca7b6d1138227e7829450830b') in 0.015930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/SlotCar-Scene.unity
+  artifactKey: Guid(711b38c07f2cf904f81b3422c67f1825) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/SlotCar-Scene.unity using Guid(711b38c07f2cf904f81b3422c67f1825) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c3419ad59fa3a8fe3807d7e133ea1548') in 0.018204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Photon/Fusion/Runtime/Statistics/FusionStatsCanvas.cs
+  artifactKey: Guid(25ab394f9fec45f692c631c30839e2ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/Fusion/Runtime/Statistics/FusionStatsCanvas.cs using Guid(25ab394f9fec45f692c631c30839e2ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '00fa2c08bd082d73cfafec68090b0f2f') in 0.019323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Photon/Fusion/Runtime/Utilities/RunnerVisibility/RunnerLagCompensationGizmos.cs
+  artifactKey: Guid(7551cd937fd7ae84eb38a9dbbcd67c6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/Fusion/Runtime/Utilities/RunnerVisibility/RunnerLagCompensationGizmos.cs using Guid(7551cd937fd7ae84eb38a9dbbcd67c6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3749a650d90eda0627f28b8b8bd46eeb') in 0.016420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/Materials/road.mat
+  artifactKey: Guid(4b56a40ac6992974b8aac0882a4c7555) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/Materials/road.mat using Guid(4b56a40ac6992974b8aac0882a4c7555) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6a376b374bcef3789f66ec01801c7d40') in 0.019220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Autonomous UI/CurrentRoom/CurrentRoomIsOpenToggle.cs
+  artifactKey: Guid(fa1f9506beac441fa984720f2b92a92a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunCockpit/Scripts/Autonomous UI/CurrentRoom/CurrentRoomIsOpenToggle.cs using Guid(fa1f9506beac441fa984720f2b92a92a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1f7a82af04c8c7a6f5d948b65a87472c') in 0.018055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/car.mat
+  artifactKey: Guid(c282d31bf082fca4a822239b62ff8257) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Stylized city/Materials/car.mat using Guid(c282d31bf082fca4a822239b62ff8257) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'daf614d8190a2224af80dcbaa55db3e1') in 0.015506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Models/Materials/SpaceshipGlow.mat
+  artifactKey: Guid(609dbe3d30c4bf84ca15ce89479d7919) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Models/Materials/SpaceshipGlow.mat using Guid(609dbe3d30c4bf84ca15ce89479d7919) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '15c07acb467f041e16d32916f2ecdcc2') in 0.027242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Photon/PhotonRealtime/Code/RoomInfo.cs
+  artifactKey: Guid(71760b65ad7d5b842942c797a0366fa7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonRealtime/Code/RoomInfo.cs using Guid(71760b65ad7d5b842942c797a0366fa7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '985a535ea10ecafc6b11667018a89a81') in 0.017856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/PunTeams.cs
+  artifactKey: Guid(6587c8104d7524f4280d0a68dd779f27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/UtilityScripts/PhotonPlayer/PunTeams.cs using Guid(6587c8104d7524f4280d0a68dd779f27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a4b2c9c552aff1ffec6abe4c8017fe1d') in 0.017900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Img/You-Died-PNG-Photos.png
+  artifactKey: Guid(4dfe575a24dc38a49864df2c9c7ddaf8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Img/You-Died-PNG-Photos.png using Guid(4dfe575a24dc38a49864df2c9c7ddaf8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f3ab7ea9821afac3aabbff13d84842dd') in 0.045954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Prefabs/SlotCar_D.prefab
+  artifactKey: Guid(9db296b8bb78143c1a5f7fa8f611967e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Prefabs/SlotCar_D.prefab using Guid(9db296b8bb78143c1a5f7fa8f611967e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b6e674823f17fa078a80990d3f512edc') in 0.021855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Photon/PhotonChat/Demos/DemoChat/Files/eurof_tt.txt
+  artifactKey: Guid(e96690bd3586cf643a223def4feaa4d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonChat/Demos/DemoChat/Files/eurof_tt.txt using Guid(e96690bd3586cf643a223def4feaa4d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c4b3b2338ce5e740e7474881e246c8c8') in 0.015488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Photon/Fusion/Runtime/FusionAddressablePrefabsPreloader.cs
+  artifactKey: Guid(ccb29b1c478478c418765bc307a473ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/Fusion/Runtime/FusionAddressablePrefabsPreloader.cs using Guid(ccb29b1c478478c418765bc307a473ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '61ccea41e94c2c67b0fc71840054d758') in 0.017016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Prefabs/Player UI.prefab
+  artifactKey: Guid(e41946a981c3b444a84d15eb7c608ca4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Prefabs/Player UI.prefab using Guid(e41946a981c3b444a84d15eb7c608ca4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ca391d3cede032082270a9478da62f1b') in 0.041090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/UtilityScripts/Debugging/StatesGui.cs
+  artifactKey: Guid(62880f27e95abf2418fd79e9d9d568b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/UtilityScripts/Debugging/StatesGui.cs using Guid(62880f27e95abf2418fd79e9d9d568b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bc912d38cc35dcc0570ad2f0c4632ceb') in 0.017041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/Materials/grass.mat
+  artifactKey: Guid(ba3bddb608259184783916ac7915d5a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/Materials/grass.mat using Guid(ba3bddb608259184783916ac7915d5a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '38dca9adfc38f5373d2494761d45146b') in 0.021729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Photon/Fusion/Runtime/Statistics/FusionStatistics.cs
+  artifactKey: Guid(9c6080750a33c9d428004642d0e07dd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/Fusion/Runtime/Statistics/FusionStatistics.cs using Guid(9c6080750a33c9d428004642d0e07dd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a426fc3707e6feda1c1f77cedffc6920') in 0.016236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Photon/PhotonChat/Code/ChannelWellKnownProperties.cs
+  artifactKey: Guid(5eb508ffb7b7b0f47882f0087a668283) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonChat/Code/ChannelWellKnownProperties.cs using Guid(5eb508ffb7b7b0f47882f0087a668283) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b59410dc8ef4620f34441b5d884a8840') in 0.014268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoProcedural/Scripts/WorldGenerator.cs
+  artifactKey: Guid(4190307f26497ca49b67855340776e0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoProcedural/Scripts/WorldGenerator.cs using Guid(4190307f26497ca49b67855340776e0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '01eba86f77bc47144244be103f8efa9f') in 0.016117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Photon/Fusion/Runtime/Statistics/Prefabs/SingleStatistics.prefab
+  artifactKey: Guid(483568e790e53a243a4f436e924e90b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/Fusion/Runtime/Statistics/Prefabs/SingleStatistics.prefab using Guid(483568e790e53a243a4f436e924e90b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '10b03f4d6d3ff05565dd0f8a4aecf676') in 0.202304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 72
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/changelog.txt
+  artifactKey: Guid(612a7d8fb44bb994d90d9c0fa1408703) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/changelog.txt using Guid(612a7d8fb44bb994d90d9c0fa1408703) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9522ea8b79a2a8321266318a85931348') in 0.030581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Resources/Spaceship.prefab
+  artifactKey: Guid(775dd0a15ad25a544b33ad40ef0da1f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Resources/Spaceship.prefab using Guid(775dd0a15ad25a544b33ad40ef0da1f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3ba1815a5c729d014c94d27476f4f8fa') in 0.049905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.546 seconds
+Refreshing native plugins compatible for Editor in 10.02 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.009 seconds
+Domain Reload Profiling: 1553ms
+	BeginReloadAssembly (189ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (282ms)
+		LoadAssemblies (352ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1010ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (521ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (410ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 10.24 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3453 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (49.3 KB). Loaded Objects now: 3969.
+Memory consumption went from 151.0 MB to 150.9 MB.
+Total: 3.336800 ms (FindLiveObjects: 0.300200 ms CreateObjectMapping: 0.106100 ms MarkObjects: 2.825900 ms  DeleteObjects: 0.103100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/DeathScreenManager.cs: e29ceee39ecc5495837991134bc8dad9 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PantallaMuerte.cs: ce58e40909b58eb69faf3f5d08c53997 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
