@@ -406,9 +406,20 @@
 "Assets/Scripts/ObstaculoGiratorio1.cs"
 "Assets/Scripts/PlayerName.cs"
 "Assets/Scripts/PuertasGiratorias.cs"
+<<<<<<< HEAD
 "Assets/Scripts/Scripts Nieves y Alejandro/InicioPartida.cs"
 "Assets/Scripts/Scripts Nieves y Alejandro/MuerteLava.cs"
 "Assets/Scripts/Scripts Nieves y Alejandro/PlayerDeath.cs"
+=======
+<<<<<<< HEAD
+"Assets/Scripts/Scripts Nieves y Alejandro/MuerteLava.cs"
+"Assets/Scripts/Scripts Nieves y Alejandro/NewBehaviourScript.cs"
+"Assets/Scripts/Scripts Nieves y Alejandro/PlayerDeath.cs"
+=======
+"Assets/Scripts/Scripts Nieves y Alejandro/InicioPartida.cs"
+"Assets/Scripts/Scripts Nieves y Alejandro/MuerteLava.cs"
+>>>>>>> bf18c930 (First commit)
+>>>>>>> 364e33dd1f5d98446bbeda5cd3a4a07909ded996
 "Assets/Scripts/Scripts Nieves y Alejandro/SueloRompe.cs"
 "Assets/Surface/DataStructure/OPTIONS.cs"
 "Assets/Surface/DataStructure/Porta.cs"

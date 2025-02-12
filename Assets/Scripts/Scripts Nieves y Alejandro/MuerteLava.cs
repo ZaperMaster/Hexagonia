@@ -6,7 +6,14 @@ public class DestruirAlContacto : MonoBehaviour
 {
     public GameObject deathImage; // Imagen de muerte en UI
     public AudioSource deathSound; // Audio de muerte
+<<<<<<< HEAD
     public AudioSource backgroundMusic; // Música de fondo
+=======
+<<<<<<< HEAD
+=======
+    public AudioSource backgroundMusic; // Música de fondo
+>>>>>>> bf18c930 (First commit)
+>>>>>>> 364e33dd1f5d98446bbeda5cd3a4a07909ded996
     public float fadeDuration = 1.5f; // Duración del fade-in
 
     private void Start()
@@ -15,6 +22,11 @@ public class DestruirAlContacto : MonoBehaviour
         {
             deathImage.SetActive(false); // Se asegura de que inicie desactivada
         }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 364e33dd1f5d98446bbeda5cd3a4a07909ded996
 
         if (deathSound != null)
         {
@@ -25,6 +37,10 @@ public class DestruirAlContacto : MonoBehaviour
         {
             backgroundMusic.Play(); // Reproduce la música de fondo al inicio
         }
+<<<<<<< HEAD
+=======
+>>>>>>> bf18c930 (First commit)
+>>>>>>> 364e33dd1f5d98446bbeda5cd3a4a07909ded996
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -39,11 +55,20 @@ public class DestruirAlContacto : MonoBehaviour
                 StartCoroutine(FadeIn()); // Efecto fade-in
             }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 364e33dd1f5d98446bbeda5cd3a4a07909ded996
             if (backgroundMusic != null)
             {
                 backgroundMusic.Stop(); // Detiene la música de fondo
             }
 
+<<<<<<< HEAD
+=======
+>>>>>>> bf18c930 (First commit)
+>>>>>>> 364e33dd1f5d98446bbeda5cd3a4a07909ded996
             if (deathSound != null) 
             {
                 deathSound.Play(); // Reproduce el sonido de muerte
@@ -55,7 +80,13 @@ public class DestruirAlContacto : MonoBehaviour
 
     IEnumerator FadeIn()
     {
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+        Image img = deathImage.GetComponent<Image>();
+=======
+>>>>>>> 364e33dd1f5d98446bbeda5cd3a4a07909ded996
         if (deathImage == null)
         {
             Debug.LogError("⚠️ deathImage no está asignado en el Inspector.");
@@ -70,6 +101,10 @@ public class DestruirAlContacto : MonoBehaviour
             yield break;
         }
 
+<<<<<<< HEAD
+=======
+>>>>>>> bf18c930 (First commit)
+>>>>>>> 364e33dd1f5d98446bbeda5cd3a4a07909ded996
         Color color = img.color;
         float elapsedTime = 0;
 
