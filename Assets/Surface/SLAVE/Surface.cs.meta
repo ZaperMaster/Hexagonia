@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e3bc300dade8669468a3aea6266fb58a
+timeCreated: 1434533148
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - DaPhisicObject: {fileID: 100000, guid: 90dce11006533f84aa39adc01eb806de, type: 2}
+  - segnalatoreArrivo: {fileID: 147882, guid: 3a9f795bb5306b145924972fb5042d1b, type: 2}
+  - spawnedSignal: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
