@@ -1,0 +1,761 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &188544
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 494634}
+  - 114: {fileID: 11452860}
+  m_Layer: 0
+  m_Name: pieceContainer_Tubes
+  m_TagString: pieceContainer
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &494634
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 188544}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -663.557373, y: 592.255554, z: -1444.24146}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11452860
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 188544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 565ab0c037d2ee1488386644dc948df4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  availablePieces:
+  - name: 1 Entry
+    da3dModel: {fileID: 100004, guid: 16b6815233dc06643bd2081f00152f37, type: 2}
+    pathValue: 0
+    doors: 010000000100000001000000010000000000000001000000
+  - name: 2 Entry
+    da3dModel: {fileID: 100002, guid: 26ac892f32fe34e4cb706c38a50a22bd, type: 2}
+    pathValue: 0
+    doors: 010000000000000001000000010000000000000001000000
+  - name: 2 Entry
+    da3dModel: {fileID: 100000, guid: 4709b7f5466e40c4988197227a98a0df, type: 2}
+    pathValue: 0
+    doors: 000000000000000001000000010000000100000001000000
+  - name: 2 Entry
+    da3dModel: {fileID: 100008, guid: c63b76b574441474293a952763a7bbe2, type: 2}
+    pathValue: 0
+    doors: 010000000000000001000000010000000100000000000000
+  - name: 3 Entry
+    da3dModel: {fileID: 100004, guid: 59232ed1449cda7419b202e411748ee3, type: 2}
+    pathValue: 0
+    doors: 010000000100000000000000010000000000000000000000
+  - name: 3 Entry
+    da3dModel: {fileID: 100004, guid: dd71ddee4e5da894d8431c954626dc0b, type: 2}
+    pathValue: 0
+    doors: 010000000100000000000000000000000100000000000000
+  - name: 3 Entry
+    da3dModel: {fileID: 100004, guid: 0ae4291b34297694eb328cce011ae82c, type: 2}
+    pathValue: 0
+    doors: 000000000000000001000000010000000100000000000000
+  - name: 3 Entry
+    da3dModel: {fileID: 173446, guid: 5ea7b898936fd3148b2c597bb12976fb, type: 2}
+    pathValue: 0
+    doors: 010000000000000001000000000000000100000000000000
+  - name: 4 Entry
+    da3dModel: {fileID: 100004, guid: 474c3a8d61e2d1747b03e0dc9d4a8a9a, type: 2}
+    pathValue: 0
+    doors: 010000000000000000000000010000000000000000000000
+  - name: 4 Entry
+    da3dModel: {fileID: 100004, guid: 7c201fdb2b5c17146ad96879e526097c, type: 2}
+    pathValue: 0
+    doors: 010000000100000000000000000000000000000000000000
+  - name: 4 Entry
+    da3dModel: {fileID: 100008, guid: 163169255c88741478bba558fa58b474, type: 2}
+    pathValue: 0
+    doors: 000000000000000001000000000000000100000000000000
+  - name: 5 Entry
+    da3dModel: {fileID: 100006, guid: 00fc5e6f8bc599a4d9b488dff10fe81a, type: 2}
+    pathValue: 0
+    doors: 010000000000000000000000000000000000000000000000
+  - name: 6 Entry
+    da3dModel: {fileID: 100014, guid: e9ed4a28a52fd81499a44d1855d98b89, type: 2}
+    pathValue: 0
+    doors: 000000000000000000000000000000000000000000000000
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[1].doors.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[2].doors.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[3].doors.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[4].doors.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[5].doors.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[6].doors.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[7].doors.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[8].doors.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[9].doors.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[10].doors.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[11].doors.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[12].doors.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[13].doors.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[14].doors.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[15].doors.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[16].doors.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[17].doors.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[18].doors.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[19].doors.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[20].doors.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[21].doors.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[22].doors.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[23].doors.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[24].doors.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[25].doors.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[26].doors.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[27].doors.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[28].doors.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[29].doors.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[30].doors.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[31].doors.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[1].name
+      value: 6free
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[1].da3dModel
+      value: 
+      objectReference: {fileID: 100004, guid: 42fcd6fed729cb847a4eea408a9fa305, type: 2}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[2].name
+      value: 6free
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[2].da3dModel
+      value: 
+      objectReference: {fileID: 100004, guid: 8b4f712abcee06b41b8a69effc6f3ecc, type: 2}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[3].name
+      value: 6free
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[3].da3dModel
+      value: 
+      objectReference: {fileID: 100740, guid: 26ce912f03060fe4bb93964429c25df8, type: 2}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[4].name
+      value: 6free
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[4].da3dModel
+      value: 
+      objectReference: {fileID: 100008, guid: 60c17842e323b694981cd423a5bf236a, type: 2}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[5].name
+      value: 6free
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[5].da3dModel
+      value: 
+      objectReference: {fileID: 100008, guid: 514024758b1cee140a0d7a6a666ecf8a, type: 2}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[6].name
+      value: 6free
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[6].da3dModel
+      value: 
+      objectReference: {fileID: 100006, guid: ffc643a6e6049504d910a36187ade842, type: 2}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[7].name
+      value: 6free
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[7].da3dModel
+      value: 
+      objectReference: {fileID: 100010, guid: fba490f8fc990cc478183737ebc13423, type: 2}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[8].name
+      value: 6free
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[8].da3dModel
+      value: 
+      objectReference: {fileID: 100010, guid: bc586067b60b26447ab296e0776364e9, type: 2}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[9].name
+      value: 6free
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[9].da3dModel
+      value: 
+      objectReference: {fileID: 100028, guid: fafb0824aa7cea74c9c95368dc1a0b6c, type: 2}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[10].name
+      value: 5free
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[10].da3dModel
+      value: 
+      objectReference: {fileID: 100008, guid: 6d4c781ed7f22ec4e9e56ea8c790bb4d, type: 2}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[10].doors.Array.data[3]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[11].name
+      value: 5free
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[11].da3dModel
+      value: 
+      objectReference: {fileID: 100016, guid: 87f53fbef0f60a6429babaaafaa85ab1, type: 2}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[11].doors.Array.data[3]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[12].name
+      value: 4free
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[12].da3dModel
+      value: 
+      objectReference: {fileID: 100024, guid: 26903b61cab5b6b45af269025c7738c2, type: 2}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[12].doors.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[12].doors.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[13].name
+      value: 4free
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[13].da3dModel
+      value: 
+      objectReference: {fileID: 100022, guid: 1bf7ce9a8cb05b648ac990db4a37e619, type: 2}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[13].doors.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[13].doors.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[14].name
+      value: 4free
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[14].da3dModel
+      value: 
+      objectReference: {fileID: 143638, guid: ebc98507efe772f43ae764022622725e, type: 2}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[14].doors.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[14].doors.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[15].name
+      value: 4free
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[15].da3dModel
+      value: 
+      objectReference: {fileID: 100034, guid: e61fcf2e643926a45baf5abb41be5fb7, type: 2}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[15].doors.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[15].doors.Array.data[5]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[16].name
+      value: 4free
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[16].da3dModel
+      value: 
+      objectReference: {fileID: 100036, guid: 8014af1f2cecccb4cb2136acb736c8aa, type: 2}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[16].doors.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[16].doors.Array.data[5]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[17].name
+      value: 3free
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[17].da3dModel
+      value: 
+      objectReference: {fileID: 100030, guid: 06c0bec15bede434e8c15657ba6a27b7, type: 2}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[17].doors.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[17].doors.Array.data[4]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[17].doors.Array.data[5]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[18].name
+      value: 3free
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[18].da3dModel
+      value: 
+      objectReference: {fileID: 100030, guid: 6ed0526e1a1dbcd4dafb6bc8770a5a73, type: 2}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[18].doors.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[18].doors.Array.data[4]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[18].doors.Array.data[5]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[19].name
+      value: 3free
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[19].da3dModel
+      value: 
+      objectReference: {fileID: 114710, guid: 89f341b229a6372468f29ed1944902c6, type: 2}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[19].doors.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[19].doors.Array.data[2]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[19].doors.Array.data[4]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[19].doors.Array.data[5]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[20].name
+      value: 3free
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[20].da3dModel
+      value: 
+      objectReference: {fileID: 124038, guid: 01d9e039cc0c84c4e92b7b0cd7657af3, type: 2}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[20].doors.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[20].doors.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[20].doors.Array.data[4]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[21].name
+      value: 3free
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[21].da3dModel
+      value: 
+      objectReference: {fileID: 100024, guid: dc32d0f6859c23841bfb2ff1b31ab223, type: 2}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[21].doors.Array.data[2]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[21].doors.Array.data[4]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[21].doors.Array.data[5]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[22].name
+      value: 3free
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[22].da3dModel
+      value: 
+      objectReference: {fileID: 157734, guid: 4f06e1646f896ee4c89cb688fc4f11a8, type: 2}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[22].doors.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[22].doors.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[22].doors.Array.data[5]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[23].name
+      value: 2free
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[23].da3dModel
+      value: 
+      objectReference: {fileID: 100052, guid: 4d4c3d054d397e64cb0b59a672caddda, type: 2}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[23].doors.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[23].doors.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[23].doors.Array.data[3]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[23].doors.Array.data[4]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[24].name
+      value: 2free
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[24].da3dModel
+      value: 
+      objectReference: {fileID: 100056, guid: a86a05f8d7df0ad44a2a1482e9eaf599, type: 2}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[24].doors.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[24].doors.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[24].doors.Array.data[3]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[24].doors.Array.data[4]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[25].name
+      value: 2free
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[25].da3dModel
+      value: 
+      objectReference: {fileID: 117848, guid: 3015863e541cff54f9749178df7ddddf, type: 2}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[25].doors.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[25].doors.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[25].doors.Array.data[4]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[25].doors.Array.data[5]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[26].name
+      value: 2free
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[26].da3dModel
+      value: 
+      objectReference: {fileID: 165236, guid: 3afbfeecbb2518c439124b9d012753e7, type: 2}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[26].doors.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[26].doors.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[26].doors.Array.data[4]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[26].doors.Array.data[5]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[27].name
+      value: 2free
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[27].da3dModel
+      value: 
+      objectReference: {fileID: 170754, guid: 7614e6da24415854eaf6553528460dd0, type: 2}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[27].doors.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[27].doors.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[27].doors.Array.data[3]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[27].doors.Array.data[5]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[28].name
+      value: 2free
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[28].da3dModel
+      value: 
+      objectReference: {fileID: 152088, guid: 2818194a80fd0f54aafd9f9ae1324ac7, type: 2}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[28].doors.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[28].doors.Array.data[3]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[28].doors.Array.data[4]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[28].doors.Array.data[5]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[29].name
+      value: 2free
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[29].da3dModel
+      value: 
+      objectReference: {fileID: 100026, guid: b3e6a917b1f34654898512b89b8b6ca0, type: 2}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[29].doors.Array.data[2]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[29].doors.Array.data[3]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[29].doors.Array.data[4]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[29].doors.Array.data[5]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[30].name
+      value: 1free
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[30].da3dModel
+      value: 
+      objectReference: {fileID: 100038, guid: 5170bec8ff179134d9a0bf10616312a3, type: 2}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[30].doors.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[30].doors.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[30].doors.Array.data[3]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[30].doors.Array.data[4]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[30].doors.Array.data[5]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[31].name
+      value: 1free
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[31].da3dModel
+      value: 
+      objectReference: {fileID: 100046, guid: 4225cc53deb77304e973e0530312dae0, type: 2}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[31].doors.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[31].doors.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[31].doors.Array.data[3]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[31].doors.Array.data[4]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[31].doors.Array.data[5]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: availablePieces.Array.data[0].name
+      value: 1 Entry
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 188544}
+  m_IsPrefabParent: 1

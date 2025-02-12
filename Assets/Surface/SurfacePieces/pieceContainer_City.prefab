@@ -1,0 +1,193 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &119862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 486394}
+  - 114: {fileID: 11471516}
+  m_Layer: 0
+  m_Name: pieceContainer_City
+  m_TagString: pieceContainer
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &486394
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 119862}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -105.539581, y: 86.0423431, z: 55.283268}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11471516
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 119862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 565ab0c037d2ee1488386644dc948df4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  availablePieces:
+  - name: b2s1 - 1
+    da3dModel: {fileID: 157762, guid: 16dbf9cef6fd7f54486454d34f3dbfe4, type: 2}
+    pathValue: 0
+    doors: 010000000100000003000000020000000100000003000000
+  - name: b2s1 - 2
+    da3dModel: {fileID: 127424, guid: 245ec5377a2aab14ba5b0978f40cdbaa, type: 2}
+    pathValue: 0
+    doors: 010000000200000003000000010000000100000003000000
+  - name: b2s1 - 3
+    da3dModel: {fileID: 185430, guid: 770b347fa15121b49b9ee3e33b28f6b0, type: 2}
+    pathValue: 0
+    doors: 030000000100000001000000010000000200000003000000
+  - name: b2s1 - 4
+    da3dModel: {fileID: 191832, guid: 00023b94fd334324582ec1569220b138, type: 2}
+    pathValue: 0
+    doors: 030000000100000001000000020000000100000003000000
+  - name: b2s1 - 5
+    da3dModel: {fileID: 135986, guid: 065bdb7868cf57945a85fd869da1c50c, type: 2}
+    pathValue: 0
+    doors: 030000000100000002000000010000000100000003000000
+  - name: b2s1 - 6
+    da3dModel: {fileID: 100292, guid: 3f3e23681876d65459ce7b74c4f47b48, type: 2}
+    pathValue: 0
+    doors: 010000000100000002000000030000000300000001000000
+  - name: b2s1 - 7
+    da3dModel: {fileID: 186260, guid: afdaa23beb203004f9c1870c026ec47a, type: 2}
+    pathValue: 0
+    doors: 020000000300000001000000010000000100000003000000
+  - name: b2s1 - 8
+    da3dModel: {fileID: 166404, guid: 2cf5ed41dbe872f4db4609d1c8a7f471, type: 2}
+    pathValue: 0
+    doors: 010000000300000001000000010000000200000003000000
+  - name: b2s1 - 10
+    da3dModel: {fileID: 145496, guid: 4a0a01b31010b6948900dd62584a093e, type: 2}
+    pathValue: 0
+    doors: 010000000300000002000000010000000100000003000000
+  - name: b2s2 - 1
+    da3dModel: {fileID: 131708, guid: 187a1c89ede7c644992201a3d25be3e0, type: 2}
+    pathValue: 0
+    doors: 010000000300000003000000010000000200000002000000
+  - name: b2s2 - 2
+    da3dModel: {fileID: 151018, guid: 397eb3e3f85a58249a98c1a4d94b26e6, type: 2}
+    pathValue: 0
+    doors: 030000000100000003000000010000000200000002000000
+  - name: b2s2 - 3
+    da3dModel: {fileID: 103424, guid: e27b5e1f3f521fd4db70f64e28ea7c99, type: 2}
+    pathValue: 0
+    doors: 010000000100000003000000020000000200000003000000
+  - name: b2s2 - 4
+    da3dModel: {fileID: 131078, guid: cddbdccba73813f43b1b275e8a37ed5f, type: 2}
+    pathValue: 0
+    doors: 010000000100000003000000030000000200000002000000
+  - name: b2s2 - 5
+    da3dModel: {fileID: 131532, guid: 2ee9348b7de5df943a6eeee8d3a2d397, type: 2}
+    pathValue: 0
+    doors: 030000000300000001000000010000000200000002000000
+  - name: b2s2 - 6
+    da3dModel: {fileID: 178992, guid: 07b0270a1622da84592a2d21b15f213d, type: 2}
+    pathValue: 0
+    doors: 010000000200000003000000010000000200000003000000
+  - name: b2s2 - 7
+    da3dModel: {fileID: 130628, guid: 5f9d94f81354c024597388645a64da6f, type: 2}
+    pathValue: 0
+    doors: 030000000100000002000000010000000300000002000000
+  - name: b2s2 - 8
+    da3dModel: {fileID: 195346, guid: 9f6e2d45eb4b564418027052f5532028, type: 2}
+    pathValue: 0
+    doors: 030000000300000002000000010000000100000002000000
+  - name: b2s2 - 9
+    da3dModel: {fileID: 190314, guid: affb58a4d76d9eb4fbe7b2c29167ce12, type: 2}
+    pathValue: 0
+    doors: 030000000100000002000000030000000200000001000000
+  - name: b2s2 - 10
+    da3dModel: {fileID: 197606, guid: b18adb33a3db0014b975d202a4f8a7f4, type: 2}
+    pathValue: 0
+    doors: 010000000100000003000000020000000300000002000000
+  - name: b2s2 - 11
+    da3dModel: {fileID: 112762, guid: 4afd65a2e124bd548a5d283c0c837e12, type: 2}
+    pathValue: 0
+    doors: 010000000300000001000000010000000200000003000000
+  - name: b2s2 - 12
+    da3dModel: {fileID: 118634, guid: b4232cd40c383154abebc20bd59c35f4, type: 2}
+    pathValue: 0
+    doors: 030000000300000001000000020000000100000002000000
+  - name: BigStreet - 1
+    da3dModel: {fileID: 152586, guid: a69594cc895883549b9520fb745dc96d, type: 2}
+    pathValue: 0
+    doors: 010000000100000003000000010000000100000001000000
+  - name: BigStreet - 3
+    da3dModel: {fileID: 133194, guid: e9c52a555fe01f44f9a1be6457575a31, type: 2}
+    pathValue: 0
+    doors: 010000000100000003000000010000000300000001000000
+  - name: BigStreet - 4
+    da3dModel: {fileID: 189222, guid: e45a6650896931449a668540bdfc5a9a, type: 2}
+    pathValue: 0
+    doors: 010000000100000003000000010000000100000003000000
+  - name: BigStreet - 5
+    da3dModel: {fileID: 105820, guid: 0e076ea4a7da26b4fb4567e061e82512, type: 2}
+    pathValue: 0
+    doors: 010000000100000001000000030000000300000003000000
+  - name: BigStreet - 6
+    da3dModel: {fileID: 198738, guid: 81b1e9ea1d2704945a73fdb241128e05, type: 2}
+    pathValue: 0
+    doors: 010000000100000003000000010000000300000003000000
+  - name: BigStreet - 8
+    da3dModel: {fileID: 131566, guid: daaef6036e2a16a48affc7bc1603c1b0, type: 2}
+    pathValue: 0
+    doors: 010000000300000001000000010000000300000003000000
+  - name: SmallStreet - 1
+    da3dModel: {fileID: 101214, guid: a6508f013b070c94c9fe026f0d828dce, type: 2}
+    pathValue: 0
+    doors: 010000000100000002000000010000000100000001000000
+  - name: SmallStreet - 2
+    da3dModel: {fileID: 100318, guid: 763b1b8316222b14f9d29e8f6202da68, type: 2}
+    pathValue: 0
+    doors: 010000000100000002000000020000000100000001000000
+  - name: SmallStreet - 3
+    da3dModel: {fileID: 172598, guid: 1785e7b8966365e4d9fb943b4403115b, type: 2}
+    pathValue: 0
+    doors: 010000000100000002000000010000000200000001000000
+  - name: SmallStreet - 4
+    da3dModel: {fileID: 129626, guid: 0069f014cb83992479c3c64ce43a8e70, type: 2}
+    pathValue: 0
+    doors: 010000000100000002000000010000000100000002000000
+  - name: SmallStreet - 5
+    da3dModel: {fileID: 157240, guid: 5020036313b06a849931938a5f31d5ee, type: 2}
+    pathValue: 0
+    doors: 010000000100000002000000020000000200000001000000
+  - name: SmallStreet - 6
+    da3dModel: {fileID: 103336, guid: 7ab38c4b2ed37ae43be3154c80f498ed, type: 2}
+    pathValue: 0
+    doors: 010000000100000002000000010000000200000002000000
+  - name: SmallStreet - 7
+    da3dModel: {fileID: 109942, guid: 669f42d1ceb8b10498d0a19473f7cd5e, type: 2}
+    pathValue: 0
+    doors: 010000000200000001000000010000000200000002000000
+  - name: SmallStreet - 8
+    da3dModel: {fileID: 190028, guid: a3a653e7aaf4087458af63fe9a562c51, type: 2}
+    pathValue: 0
+    doors: 010000000200000001000000020000000100000002000000
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 119862}
+  m_IsPrefabParent: 1
