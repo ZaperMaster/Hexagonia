@@ -93,7 +93,10 @@
     <Compile Include="Assets\Scripts\CamaraInstanciaSpawn.cs" />
     <Compile Include="Assets\Surface\SurfacePieces\doorStats.cs" />
     <Compile Include="Assets\Scripts\ObstaculoGiratorio.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets\Scripts\Scripts Nieves y Alejandro\NewBehaviourScript.cs" />
+=======
+>>>>>>> bf18c930 (First commit)
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
@@ -134,12 +137,19 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\IgnoreUiRaycastWhenInactive.cs" />
     <Compile Include="Assets\Scripts\PlayerName.cs" />
+<<<<<<< HEAD
+=======
+    <Compile Include="Assets\Scripts\Scripts Nieves y Alejandro\InicioPartida.cs" />
+>>>>>>> bf18c930 (First commit)
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\EventSystemSpawner.cs" />
     <Compile Include="Assets\Scripts\PuertasGiratorias.cs" />
     <Compile Include="Assets\Scripts\Menu\MainMenuLauncher.cs" />
     <Compile Include="Assets\Surface\SLAVE\UNIT\Unit.cs" />
     <Compile Include="Assets\Scripts\Launcher.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets\Scripts\Scripts Nieves y Alejandro\PlayerDeath.cs" />
+=======
+>>>>>>> bf18c930 (First commit)
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\NamePickGui.cs" />
     <Compile Include="Assets\Scripts\ObstaculoGiratorio1.cs" />
     <Compile Include="Assets\Surface\DataStructure\OPTIONS.cs" />

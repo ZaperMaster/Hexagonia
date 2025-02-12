@@ -6,6 +6,10 @@ public class DestruirAlContacto : MonoBehaviour
 {
     public GameObject deathImage; // Imagen de muerte en UI
     public AudioSource deathSound; // Audio de muerte
+<<<<<<< HEAD
+=======
+    public AudioSource backgroundMusic; // Música de fondo
+>>>>>>> bf18c930 (First commit)
     public float fadeDuration = 1.5f; // Duración del fade-in
 
     private void Start()
@@ -14,6 +18,19 @@ public class DestruirAlContacto : MonoBehaviour
         {
             deathImage.SetActive(false); // Se asegura de que inicie desactivada
         }
+<<<<<<< HEAD
+=======
+
+        if (deathSound != null)
+        {
+            deathSound.Stop(); // Asegura que el sonido de muerte no se reproduzca al inicio
+        }
+
+        if (backgroundMusic != null)
+        {
+            backgroundMusic.Play(); // Reproduce la música de fondo al inicio
+        }
+>>>>>>> bf18c930 (First commit)
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -28,6 +45,14 @@ public class DestruirAlContacto : MonoBehaviour
                 StartCoroutine(FadeIn()); // Efecto fade-in
             }
 
+<<<<<<< HEAD
+=======
+            if (backgroundMusic != null)
+            {
+                backgroundMusic.Stop(); // Detiene la música de fondo
+            }
+
+>>>>>>> bf18c930 (First commit)
             if (deathSound != null) 
             {
                 deathSound.Play(); // Reproduce el sonido de muerte
@@ -39,7 +64,24 @@ public class DestruirAlContacto : MonoBehaviour
 
     IEnumerator FadeIn()
     {
+<<<<<<< HEAD
         Image img = deathImage.GetComponent<Image>();
+=======
+        if (deathImage == null)
+        {
+            Debug.LogError("⚠️ deathImage no está asignado en el Inspector.");
+            yield break; // Sale de la corrutina sin continuar
+        }
+
+        Image img = deathImage.GetComponent<Image>();
+        
+        if (img == null)
+        {
+            Debug.LogError("⚠️ deathImage no tiene un componente Image.");
+            yield break;
+        }
+
+>>>>>>> bf18c930 (First commit)
         Color color = img.color;
         float elapsedTime = 0;
 

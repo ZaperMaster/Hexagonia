@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":423.56072998046877,"y":266.6487121582031,"z":678.0726318359375},"rotation":{"x":0.005661239847540855,"y":0.09327692538499832,"z":0.0006448886706493795,"w":-0.995661735534668},"size":531.5663452148438,"orthographic":false}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":3585.49169921875,"y":-2036.9775390625,"z":782.9002685546875},"rotation":{"x":-0.2063024342060089,"y":-0.6071219444274902,"z":0.16728243231773377,"w":-0.7490091919898987},"size":2168.1455078125,"orthographic":false}
+>>>>>>> bf18c930 (First commit)

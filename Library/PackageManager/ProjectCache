@@ -5,7 +5,11 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< HEAD
       ticks: 638748957280000000
+=======
+      ticks: 638749205710000000
+>>>>>>> bf18c930 (First commit)
     m_Hash: 1785757667
   m_LockFileStatus:
     m_FilePath: C:/Proyecto Unity/Hexagonia-main/Packages/packages-lock.json
@@ -13,7 +17,11 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< HEAD
       ticks: 638748957280000000
+=======
+      ticks: 638749205710000000
+>>>>>>> bf18c930 (First commit)
     m_Hash: 1782356898
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
