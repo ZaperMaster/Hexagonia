@@ -1,0 +1,83 @@
+# .gitignore para proyectos de Unity
+# Unity regenera todo esto al abrir el proyecto: no hace falta subirlo al repositorio.
+
+# Carpetas generadas por Unity
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Ajustes de Asset Store Tools
+/[Aa]ssets/AssetStoreTools*
+
+# Proyectos de Visual Studio / Rider / VS Code (Unity los regenera)
+.vs/
+.idea/
+.gradle/
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Metadatos sin archivo de los anteriores
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Informes de fallos y capturas de Unity
+sysinfo.txt
+crashlytics-build.properties
+
+# Builds empaquetados (se publican en Releases, no en el repositorio)
+*.apk
+*.aab
+*.unitypackage
+*.app
+*.rar
+*.zip
+
+# Generados por Unity al compilar
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Paquetes de terceros: cada uno se importa desde la Asset Store (ver README).
+# Su licencia no permite redistribuirlos en un repositorio público.
+/[Aa]ssets/Photon/
+/[Aa]ssets/Photon.meta
+/[Aa]ssets/PartyMonsterDuo/
+/[Aa]ssets/PartyMonsterDuo.meta
+/[Aa]ssets/Lava_Flowing_Shader/
+/[Aa]ssets/Lava_Flowing_Shader.meta
+/[Aa]ssets/Surface/
+/[Aa]ssets/Surface.meta
+
+# Música e imágenes con derechos de terceros usadas durante el desarrollo
+/[Aa]ssets/Mp3/
+/[Aa]ssets/Mp3.meta
+/[Aa]ssets/Img/
+/[Aa]ssets/Img.meta
+
+# Configuración personal del editor
+.vscode/
